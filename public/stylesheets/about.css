@@ -1,0 +1,13 @@
+li.aboutselected a { color: #F20500; }
+
+.highlight {
+	color: #F20500;
+}
+
+.link {
+    color: #F20500;
+}
+
+.link:visited {
+    text-decoration: none;
+}
