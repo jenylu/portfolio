@@ -1,0 +1,32 @@
+li.aboutselected a { color: #F20500; }
+
+.link:link {
+    color: #333;
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: #333;
+    text-decoration: underline;
+}
+
+.blurb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 200px;
+}
+
+.meImage {
+  flex-basis: 40%
+  float: left;
+}
+
+img {
+    width: 400px;
+}
+
+.meblurb {
+    padding-left: 150px;
+    float:right;
+}

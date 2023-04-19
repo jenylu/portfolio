@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<title>Jennifer Lu | About</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:semibold|Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.cdnfonts.com/css/kepler-std" rel="stylesheet" type='text/css'>
+
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="src/images/favicon.ico">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="src/stylesheets/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="src/stylesheets/bootstrap-theme.css">
+
+	<!-- font awesome icons -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel='stylesheet' href='src/stylesheets/layout.css' />
+	<link rel='stylesheet' href='src/stylesheets/about.css' />
+    <link rel="stylesheet" type="text/css" href="src/stylesheets/normalize.css" />
+</head>
+
+<body>
+
+<!-- navigation -->
+<h1 class="centerlogo">
+  <a href="index.html" title="How you doin'?" role="bookmark" data-content-field="site-title">
+    <img class="logo" src="src/images/JL_Logo3.png" alt="Jennifer Lu"></span>
+  </a>
+</h1>
+
+<input type="checkbox" id="menu">
+<label for="menu" onclick>JENNIFER LU</label>
+
+<nav role="off-canvas">
+    <ul>
+    	<li class="homeselected"><a href="index.html">ILLUSTRATION</a></li>
+		<li class="workselected"><a href="scribbles.html">SCRIBBLES</a></li>
+		<li class="aboutselected"><a href="about.html">CONTACT</a></li>
+    </ul>
+</nav>
+
+<!-- content -->
+<div class="content">
+
+<div class="container-fluid">
+	<div class="blurb">
+		<div class="meImage">
+			<img src="src/images/about/me.jpg" alt="me"/>
+		</div>
+
+	<div class="meblurb">
+		<h2 class="about-title">Hi, I'm Jennifer!</h2>
+		<br/>
+		<p> I'm an illustrator/writer based in the Bay Area. My main art tool is Procreate but I also love playing with goauche paint, collage, and copic markers. When I'm not drawing, I'm coding or rollerskating. I am currently looking for representation. </p>
+		<br/>
+		<p> Contact me at <a class="link" href="mailto: lu.jennifer@outlook.com">lu.jennifer@outlook.com</a> </p>
+		<br/>
+		<p> To see more of my art journey, check out my Instagram account <a class="link" href="https://www.instagram.com/lunaludraws" target="_blank">@lunaludraws </a>. </p>
+ 	</div>
+ </div>
+
+ <footer class="footer-basic-centered">
+  <div class="contactLinks">
+  	<a href="mailto: lu.jennifer@outlook.com"><i class="fa fa-envelope"></i></a>
+  	<a href="https://www.instagram.com/lunaludraws" target="_blank"><i class="fa fa-instagram"></i></a>
+  	<a href="https://www.twitter.com/lunaludraws" target="_blank"><i class="fa fa-twitter"></i></a>
+  </div>
+  <p class="footer-company-name">Jennifer Lu &copy; 2023</p>
+</footer>
+</div>
+</div>
+	<script src="https://code.jquery.com/jquery.js"></script>
+    <script src="src/js/bootstrap.js"></script>
+	<script>
+		$(function(){
+			$('#nav').click(function() {
+			$(this).toggleClass('open');
+			});
+		});
+	</script>
+
+</body>
+</html>
