@@ -1,5 +1,7 @@
 li.homeselected a {
-    color: #F20500;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
 }
 
 a:hover {
@@ -8,7 +10,7 @@ a:hover {
 }
 
 .bodytext {
-    font-family: 'Lato';
+    font-family: 'Crimson Text';
 }
 
 .shortBlurb {
@@ -70,18 +72,34 @@ a:hover {
 }
 
 .masonry-with-columns {
-    display: flex;
+    /* display: flex; */
     flex-wrap: wrap;
     margin: 0 50px 0 50px;
+    text-align: center;
 }
 
 .masonry-with-columns .thumbnail img {
 /*    width: 100%;*/
-    max-height: 450px;
+    max-height: 400px;
     margin: 0 1rem 1rem 0;
     flex: 1 0 auto;
 
     display: block;
     object-fit: cover;
     flex-grow: 1;
+    display: inline-block;
+
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/* small screens */
+@media screen and (max-width: 44em) {
+    .masonry-with-columns .thumbnail img {
+        max-height: 100%;
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
 }

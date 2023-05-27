@@ -5,6 +5,7 @@ red text colour             rt               #F20500
 mobile nav bg color         navbg            rgba(128,128,128,0.2)             
 */
 @import url('https://fonts.cdnfonts.com/css/kepler-std');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
 @font-face {
     font-family: 'MANIFESTO';
@@ -98,13 +99,13 @@ mobile nav bg color         navbg            rgba(128,128,128,0.2)
 
 /*about */
 .meblurb {
-  font-family: 'Kepler-Std', 'Lato', sans-serif;
+  font-family: 'Crimson Text', 'Lato', sans-serif;
   font-size: 18px;
   text-align: justify;
 }
 
 .content {
-  font: 1em 'Kepler-Std', 'Lato', sans-serif;
+  font: 1em 'Crimson Text', 'Lato', sans-serif;
   margin: 1em 2em 1em 2em;
   text-align: center;
 
@@ -141,7 +142,7 @@ label {
  /* left: 0;*/
   display: none;
   /*width: 2em;*/
-  font: 2em 'Josefin Sans', sans-serif;
+  font: 2em 'Crimson Text', sans-serif;
   width: 100%;
 /*  height: 2.25em;*/
   height: 2.8em;
@@ -160,6 +161,10 @@ label {
 }
 
 /* big screens */
+nav {
+  margin: 30px 80px 50px 80px;
+}
+
 nav[role="off-canvas"] {
 /*  position: relative;
   width: 50em;
@@ -172,7 +177,7 @@ nav[role="off-canvas"] {
 nav[role="off-canvas"] a {
   color: #282828;
   text-decoration: none;
-  font: 1.15em 'Kepler-Std', sans-serif;
+  font: 1.3em 'Crimson Text', sans-serif;
   transition: color .3s ease-in-out;
   display: table-cell;
   vertical-align: middle;
@@ -191,7 +196,6 @@ nav[role="off-canvas"] ul > li {
   height: 4em;
   margin: .5em;
   opacity: .8;
-  text-transform: uppercase;
   display: table;
   /*background: rgba(247, 52, 8, 0.65);*/
   cursor: pointer;
@@ -202,12 +206,16 @@ nav[role="off-canvas"] ul > li {
   cursor: pointer;
 }
 nav[role="off-canvas"] ul > li:hover {
-  color: #F20500;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
   opacity: 1;
   box-shadow: 0 0 0 0.5em rgba(255, 255, 255, 0.95);
 }
 nav[role="off-canvas"] ul > li:hover > a {
-  color: #F20500;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
 }
 
 /* small screens */
@@ -252,14 +260,14 @@ nav[role="off-canvas"] ul > li:hover > a {
     margin: 2.5em 0em 0 0em;
   }
 
-  nav[role="off-canvas"] {
+  /* nav[role="off-canvas"] {
     position: absolute;
     top: 3em;
     left: -20em;
     width: 20em;
     opacity: 0;
-    background: rgba(128,128,128,0.2); /*navbg*/
-  }
+    background: rgba(128,128,128,0.2);
+  } */
   nav[role="off-canvas"] ul > li {
     height: 100%;
     width: 100%;
@@ -312,8 +320,8 @@ nav[role="off-canvas"] ul > li:hover > a {
   }
 
   .centerlogo {
-        display: none;
-    }
+      display: none;
+  }
 }
 
 
@@ -356,7 +364,7 @@ nav[role="off-canvas"] ul > li:hover > a {
 
 .logo {
    /* width: 8%;*/
-    width: 100px;
+    width: 150px;
 }
 
 .centerlogo {
@@ -412,7 +420,7 @@ nav[role="off-canvas"] ul > li:hover > a {
 
 footer{
     position: relative;
-    bottom: 0;
+    margin: 80px 80px 50px 80px;
 }
 
 @media (max-height:800px){
