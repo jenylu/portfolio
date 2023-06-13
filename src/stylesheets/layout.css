@@ -76,15 +76,6 @@ mobile nav bg color         navbg            rgba(128,128,128,0.2)
   box-shadow: inset 0.05em 0.05em 0 rgba(0, 0, 0, 0.1), inset 0 -0.05em 0 rgba(0, 0, 0, 0.07);
 }
 
-/* index */
-.page-header {
-  margin: 0px;
-}
-
-.shortBlurb {
-    font-size: 22px;
-}
-
 /*projects */
 .projectBlurb {
     text-align: justify;
@@ -131,7 +122,7 @@ body {
     padding: 0;
   }
 }
-input[type=checkbox] {
+/* input[type=checkbox] {
   position: absolute;
   top: -9999px;
   left: -9999px;
@@ -139,12 +130,9 @@ input[type=checkbox] {
 
 label {
   position: absolute;
- /* left: 0;*/
   display: none;
-  /*width: 2em;*/
   font: 2em 'Crimson Text', sans-serif;
   width: 100%;
-/*  height: 2.25em;*/
   height: 2.8em;
   padding: .35em;
   padding-top: 0.7em;
@@ -158,6 +146,160 @@ label {
   margin: 0;
   background: rgba(0, 0, 0, 0.4);
   background: #F20500; /*rt*/
+/*} */
+
+/* nav bar try 2 */
+body {
+  font-family: 'Crimson Text', sans-serif;
+}
+:root{
+  --white: #f9f9f9;
+  --black: #36383F;
+  --gray: #85888C;
+} /* variables*/
+
+/* Header */
+.header{
+  position: relative;
+  top: 0;
+  padding: 60px 40px 0px 40px;
+  width: 100%;
+}
+/* Logo */
+.logo{
+  display: inline-flex;
+  font-size: 60px;
+  margin-left: 10px;
+  width: 55%;
+  text-align: center;
+}
+
+.nav ul{
+  list-style: none;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav menu */
+.nav{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .3s ease-out;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+  text-align: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: #282828;
+    display: block;
+    padding: 30px;
+    font: 1.3em 'Crimson Text', sans-serif;
+    transition: color .3s ease-in-out;
+}
+
+.menu a:hover{
+  color: #282828;
+  background-color: transparent;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
+}
+
+/* Menu Icon */
+.hamb{
+  cursor: pointer;
+  float: right;
+  padding: 40px 20px;
+}/* Style label tag */
+
+.hamb-line {
+  background: #282828;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+
+} /* Style span tag */
+
+.hamb-line::before,
+.hamb-line::after{
+  background: #282828;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+.hamb-line::before{
+  top: 5px;
+}
+.hamb-line::after{
+  top: -5px;
+}
+
+.side-menu {
+  display: none;
+} /* Hide checkbox */
+
+/* Toggle menu icon */
+.side-menu:checked ~ nav{
+  max-height: 100%;
+}
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+.side-menu:checked ~ .hamb .hamb-line::before {
+  /* transition: all .2s ease-out; */
+  transform: rotate(-45deg);
+  top:0;
+}
+.side-menu:checked ~ .hamb .hamb-line::after {
+  /* transition: all .2s ease-out; */
+  transform: rotate(45deg);
+  top:0;
+}
+
+/* Responsiveness */
+@media (min-width: 768px) {
+  .nav {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      max-height: none;
+      top: 0;
+      right: 40px;
+      position: absolute;
+      /* float: right; */
+      width: fit-content;
+      background-color: transparent;
+  }
+  .menu li{
+      float: left;
+  }
+
+  .header {
+    padding: 60px 40px 70px 40px;
+  }
+
+  .hamb{
+      display: none;
+  }
+
+  .logo {
+    width: 160px;
+  }
 }
 
 /* big screens */
@@ -268,7 +410,7 @@ nav[role="off-canvas"] ul > li:hover > a {
     opacity: 0;
     background: rgba(128,128,128,0.2);
   } */
-  nav[role="off-canvas"] ul > li {
+  /* nav[role="off-canvas"] ul > li {
     height: 100%;
     width: 100%;
     text-align: left;
@@ -299,7 +441,7 @@ nav[role="off-canvas"] ul > li:hover > a {
     opacity: 1;
     left: 0;
     box-shadow: -30em 0 0 30em rgba(128,128,128,0.2); /*navbg*/
-  }
+  /* }
   input:checked ~ nav[role="off-canvas"] ul > li {
     padding: .55em .55em .55em 1.5em;
   }
@@ -317,7 +459,7 @@ nav[role="off-canvas"] ul > li:hover > a {
   input:checked ~ .content {
     margin-left: 20.5em;
     margin-right: -20.5em;
-  }
+  } */ 
 
   .centerlogo {
       display: none;
@@ -359,12 +501,6 @@ nav[role="off-canvas"] ul > li:hover > a {
     display: none !important;
     opacity: 0 !important;
   }
-}
-
-
-.logo {
-   /* width: 8%;*/
-    width: 150px;
 }
 
 .centerlogo {
