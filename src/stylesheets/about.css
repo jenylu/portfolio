@@ -22,21 +22,54 @@ li.aboutselected a {
 }
 
 .meImage {
-  flex-basis: 40%;
   float: left;
+  width: 30%
 }
 
 img {
-    width: 400px;
+    width: 100%;
 }
 
-.meblurb {
+.meBlurb {
+    width: 60%;
     padding-left: 150px;
-    float:right;
+    float:left;
+    font-size: 18px;
+    text-align: justify;
 }
 
-/* .me {
-    width: 90%;
-    display: block;
-    margin-top: 20px;
-  } */
+/* on Mobile */
+@media (max-width: 1200px) {
+    .blurb {
+        margin: 0px 15px;
+    }
+    .meBlurb {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .blurb {
+        margin: 0px 15px;
+    }
+    .meBlurb {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .blurb {
+        display: inline-block;
+        margin: 0px 15px;
+    }
+    .meImage {
+        width: 100%;
+    }
+    .meImage img {
+        width: 100%;
+    }
+    .meBlurb {
+        padding-left: 0;
+        width: 100%;
+    }
+}

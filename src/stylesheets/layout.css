@@ -89,10 +89,8 @@ mobile nav bg color         navbg            rgba(128,128,128,0.2)
 }
 
 /*about */
-.meblurb {
+.meBlurb {
   font-family: 'Crimson Text', 'Lato', sans-serif;
-  font-size: 18px;
-  text-align: justify;
 }
 
 .content {
@@ -266,7 +264,7 @@ body {
   top:0;
 }
 
-/* Responsiveness */
+/* Responsiveness for full page */
 @media (min-width: 768px) {
   .nav {
       margin: 0;
