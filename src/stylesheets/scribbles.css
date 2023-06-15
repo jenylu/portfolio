@@ -1,8 +1,8 @@
-li.workselected a { color: #F20500; }
-
-/*#content {
-	height: 1100px;
-}*/
+li.scribblesselected a {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 1px;
+}
 
 .grid {
   display: flex;

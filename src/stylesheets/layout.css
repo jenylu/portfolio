@@ -152,17 +152,12 @@ label {
 body {
   font-family: 'Crimson Text', sans-serif;
 }
-:root{
-  --white: #f9f9f9;
-  --black: #36383F;
-  --gray: #85888C;
-} /* variables*/
 
 /* Header */
 .header{
   position: relative;
   top: 0;
-  padding: 60px 40px 0px 40px;
+  padding: 40px 40px 0px 40px;
   width: 100%;
 }
 /* Logo */
@@ -290,7 +285,7 @@ body {
   }
 
   .header {
-    padding: 60px 40px 70px 40px;
+    padding: 40px 40px 70px 40px;
   }
 
   .hamb{
@@ -385,17 +380,6 @@ nav[role="off-canvas"] ul > li:hover > a {
   .grey {
     color:#606060;
     font-size: 13px;
-  }
-
-  /*about */
-  .me {
-    width: 90%;
-    display: block;
-    margin-top: 20px;
-  }
-
-  .meblurb {
-    font-size: 90%;
   }
 
   .content {

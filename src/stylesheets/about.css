@@ -1,4 +1,8 @@
-li.aboutselected a { color: #F20500; }
+li.aboutselected a {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+}
 
 .link:link {
     color: #333;
@@ -14,11 +18,11 @@ li.aboutselected a { color: #F20500; }
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 80px 200px;
+    margin: 0px 200px;
 }
 
 .meImage {
-  flex-basis: 40%
+  flex-basis: 40%;
   float: left;
 }
 
@@ -30,3 +34,9 @@ img {
     padding-left: 150px;
     float:right;
 }
+
+/* .me {
+    width: 90%;
+    display: block;
+    margin-top: 20px;
+  } */
