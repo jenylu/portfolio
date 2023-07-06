@@ -261,12 +261,3 @@ footer{
     footer { position: static; }
     header { padding-top:40px; }
 }
-
-/* Grid */
-.grid {
-    position: relative;
-    margin: 0 80px;
-    padding: 1em 0 4em;
-    list-style: none;
-    text-align: center;
-}

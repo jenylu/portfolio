@@ -6,6 +6,15 @@ li.scribblesselected a {
 
 * { box-sizing: border-box; }
 
+/* Grid */
+.grid {
+  position: relative;
+  margin: 0 80px;
+  padding: 1em 0 4em;
+  list-style: none;
+  text-align: center;
+}
+
 .grid:after {
   display: block;
   content: '';
@@ -33,6 +42,13 @@ li.scribblesselected a {
 @media ( min-width: 1200px ) {
   .grid-col { width: 23.5%; }
   .grid-col--2, .grid-col--3 { display: block; }
+}
+
+/* small screens */
+@media screen and (max-width: 44em) {
+  .grid {
+    margin: 0 40px;
+  }
 }
 
 .grid-item {
