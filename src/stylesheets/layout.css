@@ -196,6 +196,13 @@ body {
   top:0;
 }
 
+/* footer */
+
+footer{
+  position: relative;
+  margin: 80px 80px 50px 80px;
+}
+
 /* Responsiveness for full page */
 @media (min-width: 768px) {
   .nav {
@@ -231,7 +238,6 @@ nav {
   margin: 30px 80px 50px 80px;
 }
 
-
 /* small screens */
 @media screen and (max-width: 44em) {
   html,
@@ -252,13 +258,10 @@ nav {
   .header{
     padding: 40px 8px 0px 8px;
   }
+
+  footer{
+    margin: 50px 10px 50px 10px;
 }
-
-/* footer */
-
-footer{
-    position: relative;
-    margin: 80px 80px 50px 80px;
 }
 
 @media (max-height:800px){
