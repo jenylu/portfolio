@@ -248,6 +248,10 @@ nav {
     opacity: 0;
     transition: opacity 0.5s ease-out;
   }
+
+  .header{
+    padding: 40px 8px 0px 8px;
+  }
 }
 
 /* footer */
