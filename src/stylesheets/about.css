@@ -60,7 +60,7 @@ img {
 @media (max-width: 768px) {
     .blurb {
         display: inline-block;
-        margin: 0px 15px;
+        margin: 0px 8px;
     }
     .meImage {
         width: 100%;

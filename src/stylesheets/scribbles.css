@@ -47,7 +47,7 @@ li.scribblesselected a {
 /* small screens */
 @media screen and (max-width: 44em) {
   .grid {
-    margin: 0 40px;
+    margin: 0 8px;
   }
 }
 

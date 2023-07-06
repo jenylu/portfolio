@@ -15,7 +15,6 @@ a:hover {
 }
 
 .masonry-with-columns {
-    /* display: flex; */
     flex-wrap: wrap;
     margin: 0 50px 0 50px;
     text-align: center;
@@ -27,7 +26,6 @@ a:hover {
 }
 
 .masonry-with-columns .thumbnail img {
-/*    width: 100%;*/
     max-height: 400px;
     margin-bottom: 1rem;
     flex: 1 0 auto;
@@ -49,5 +47,9 @@ a:hover {
         max-width: 100%;
         height: auto;
         width: auto\9; /* ie8 */
+    }
+
+    .masonry-with-columns {
+      margin: 0 20px 0 20px;
     }
 }
