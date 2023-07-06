@@ -1,7 +1,12 @@
+# remove .html from url
+Options -MultiViews
 RewriteEngine On
 
-RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
-RewriteRule ^ /%1 [NC,L,R]
+# does not apply to existing directories, if the folder exists on the server then don't change anything and don't run the rule
+RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+# Check for file in directory with .html extension
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Here we actually show the page that has the .html extension
+RewriteRule ^(.*)$ $1.html [NC,L]
