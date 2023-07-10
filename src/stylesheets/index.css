@@ -40,7 +40,7 @@ a:hover {
     width: auto\9; /* ie8 */
 }
 
-/* small screens */
+/* medium to small screens */
 @media screen and (max-width: 768px) {
     .masonry-with-columns .thumbnail img {
         max-height: 100%;

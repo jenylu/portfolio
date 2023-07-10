@@ -9,7 +9,7 @@ li.scribblesselected a {
 /* Grid */
 .grid {
   position: relative;
-  margin: 0 80px;
+  margin: 0 8px;
   padding: 1em 0 4em;
   list-style: none;
   text-align: center;
@@ -43,13 +43,7 @@ li.scribblesselected a {
 @media ( min-width: 1200px ) {
   .grid-col { width: 23.5%; }
   .grid-col--2, .grid-col--3 { display: block; }
-}
-
-/* small screens */
-@media screen and (max-width: 44em) {
-  .grid {
-    margin: 0 8px;
-  }
+  .grid {margin: 0 80px;}
 }
 
 .grid-item {
