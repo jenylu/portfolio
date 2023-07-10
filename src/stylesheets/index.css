@@ -41,7 +41,7 @@ a:hover {
 }
 
 /* small screens */
-@media screen and (max-width: 44em) {
+@media screen and (max-width: 768px) {
     .masonry-with-columns .thumbnail img {
         max-height: 100%;
         max-width: 100%;
