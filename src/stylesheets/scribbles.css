@@ -36,6 +36,7 @@ li.scribblesselected a {
 @media ( min-width: 768px ) {
   .grid-col { width: 32%; }
   .grid-col--2 { display: block; }
+  .grid { margin: 0 8px; }
 }
 
 /* 4 columns at large size */
