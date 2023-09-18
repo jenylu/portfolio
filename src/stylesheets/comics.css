@@ -23,14 +23,14 @@ li.comicsselected a {
   
   .grid-col {
     float: left;
-    width: 49%;
+    width: 100%;
     margin-right: 2%;
   }
   
   .grid-col--4 { margin-right: 0; }
   
-  /* 2 columns by default, hide columns 2 & 3 */
-  .grid-col--2, .grid-col--3 { display: none; }
+  /* 1 column by default, hide columns 1, 2 & 3 */
+  .grid-col--1, .grid-col--2, .grid-col--3 { display: none; }
   
   /* 3 columns at medium size */
   @media ( min-width: 768px ) {
@@ -42,7 +42,7 @@ li.comicsselected a {
   /* 4 columns at large size */
   @media ( min-width: 1200px ) {
     .grid-col { width: 23.5%; }
-    .grid-col--2, .grid-col--3 { display: block; }
+    .grid-col--1, .grid-col--2, .grid-col--3 { display: block; }
     .grid {margin: 0 80px;}
   }
   
