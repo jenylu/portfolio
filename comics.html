@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Jennifer Lu | About</title>
+	<title>Jennifer Lu | Comics</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:semibold|Lato' rel='stylesheet' type='text/css'>
@@ -15,10 +15,11 @@
 	<!-- font awesome icons -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link href="node_modules/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+	<!-- lightbox -->
+	<link href="src/stylesheets/lightbox.css" rel="stylesheet" />
 
 	<link rel='stylesheet' href='src/stylesheets/layout.css' />
-	<link rel='stylesheet' href='src/stylesheets/about.css' />
+	<link rel='stylesheet' href='src/stylesheets/comics.css' />
     <link rel="stylesheet" type="text/css" href="src/stylesheets/normalize.css" />
 </head>
 
@@ -47,26 +48,37 @@
 
 <!-- content -->
 <div class="content">
-	<div class="container-fluid">
-		<div class="blurb">
-			<div class="meImage">
-				<img src="src/images/about/me.jpg" alt="me"/>
-			</div>
-
-			<div class="meBlurb">
-				<h1 class="about-title">Hi, I'm Jennifer!</h1>
-				<br/>
-				<p> I'm an illustrator/writer based in the Bay Area. My main art tool is Procreate but I also love 
-					working with goauche, collage, and copic markers. I love drawing memories from childhood, portraits,
-					and comics about fancy pigeons. I am a member of SCBWI as well as a student at Storyteller Academy.
-					When I'm not drawing, I'm coding or rollerskating. I am currently looking for representation. 
-				</p>
-				<br/>
-				<p> Contact me at <a class="link" href="mailto: lu.jennifer@outlook.com">lu.jennifer@outlook.com</a> </p>
-				<br/>
-				<p> To see more of my art journey, check out my Instagram account <a class="link" href="https://www.instagram.com/lunaludraws" target="_blank">@lunaludraws </a>. </p>
-			</div>
+<div class="container-fluid">
+	<div class="grid" data-colcade="columns: .grid-col, items: .grid-item">
+		<!-- columns -->
+		<div class="grid-col grid-col--1"></div>
+		<div class="grid-col grid-col--2"></div>
+		<div class="grid-col grid-col--3"></div>
+		<div class="grid-col grid-col--4"></div>
+		<!-- items -->
+		<div class="grid-item">
+			<a class="thumbnail gallery" href="src/images/comics/Opposable_Thumbs.png" data-lightbox="image-thumbs">
+				<img src="src/images/comics/Opposable_Thumbs.png" alt="opposable thumbs"/>
+			</a>
 		</div>
+		<div class="grid-item">
+			<a class="thumbnail gallery" href="src/images/comics/Side_salad.jpg" data-lightbox="image-salad">
+				<img src="src/images/comics/Side_salad.jpg" alt="side salad"/>
+			</a>
+		</div>
+        <div class="grid-item">
+			<a class="thumbnail gallery" href="src/images/comics/Monsters.png" data-lightbox="image-monsters">
+				<img src="src/images/comics/Monsters.png" alt="monsters"/>
+			</a>
+		</div>
+		<div class="grid-item">
+			<a class="thumbnail" href="src/images/comics/Bath_Time.jpg" data-lightbox="image-set">
+				<img src="src/images/comics/Bath_Time.jpg" alt="bath_time"/>
+			</a>
+		</div>
+		<div class="grid-item">
+		</div>
+	</div> <!-- end grid -->
 
 	<footer class="text-center text-lg-start text-muted">
 		<section class="d-flex justify-content-center justify-content-sm-between p-4 flex-wrap">
@@ -75,7 +87,7 @@
 			<span>ALL IMAGES © 2023 JENNIFER LU</span>
 		</div>
 		<!-- Left -->
-
+	
 		<!-- Right -->
 		<div>
 			<a href="mailto: lu.jennifer@outlook.com" class="me-4 text-reset" target="_blank">
@@ -91,10 +103,21 @@
 		<!-- Right -->
 		</section>
 	</footer>
-	</div>
 </div>
-	<script src="https://code.jquery.com/jquery.js"></script>
-    <script src="src/js/bootstrap.js"></script>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	<script src="src/js/lightbox.js" rel="stylesheet"></script>
+	<script src="https://unpkg.com/colcade@0/colcade.js"></script>
+	<script>
+		var colc = new Colcade( '.grid', {
+		  columns: '.grid-col',
+		  items: '.grid-item'
+		});
+
+		lightbox.option({
+		'disableScrolling': true,
+		})
+	</script>
 
 </body>
 </html>
