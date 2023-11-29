@@ -6,7 +6,7 @@ function ImageGrid() {
     const imagesList = Object.entries(Posts).map(([slug, { image }]) => (
         <a className="thumbnail" key={slug}>
             <Link to={`/illustration/${slug}`}>
-                <img key={slug} src={image} alt={slug} />
+                <img key={slug} src={image} alt={slug} loading="lazy"/>
             </Link>
         </a>
       ));
