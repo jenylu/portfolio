@@ -3,10 +3,10 @@ import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry';
 import Measure from 'react-measure';
 
 const images = [
-  './portfolio/images/comics/Opposable_Thumbs.jpg',
-  './portfolio/images/comics/Side_salad.jpg',
-  './portfolio/images/comics/Monsters.jpg',
-  './portfolio/images/comics/Bath_Time.jpg',
+  './images/comics/Opposable_Thumbs.jpg',
+  './images/comics/Side_salad.jpg',
+  './images/comics/Monsters.jpg',
+  './images/comics/Bath_Time.jpg',
 ];
 
 function Comics() {

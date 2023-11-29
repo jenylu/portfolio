@@ -16,7 +16,7 @@ function IllustrationDetail() {
         return <span>The page you've requested does not exist.</span>;
     }
 
-    const {title, description, more_images, order} = post;
+    const {title, description, more_images} = post;
 
     let moreImagesList = null;
     if (more_images.length > 0) {
