@@ -27,6 +27,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "add-domain": "echo 'jenniferluart.com' > build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
