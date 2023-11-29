@@ -4,7 +4,7 @@ import Measure from 'react-measure';
 
 const images = [
   './images/comics/Opposable_Thumbs.jpg',
-  './images/comics/Side_salad.jpg',
+  './images/comics/Side_Salad.jpg',
   './images/comics/Monsters.jpg',
   './images/comics/Bath_Time.jpg',
 ];
