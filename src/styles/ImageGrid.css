@@ -1,0 +1,54 @@
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.gallery-parent {
+    max-width: 2000px;
+    grid-auto-rows: minmax(350px, auto);
+}
+
+.masonry-with-columns {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.masonry-with-columns .thumbnail {
+    text-decoration: none;
+    margin: 0 1rem 1rem 0;
+}
+
+.masonry-with-columns .thumbnail img {
+    max-height: 400px;
+    margin-bottom: 1rem;
+    flex: 1 0 auto;
+
+    display: block;
+    object-fit: cover;
+    flex-grow: 1;
+    display: inline-block;
+
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+
+    transition: .5s ease;
+}
+
+.masonry-with-columns .thumbnail:hover img {
+    opacity: 0.7;
+}
+
+/* medium to small screens */
+@media screen and (max-width: 992px) {
+    .masonry-with-columns .thumbnail img {
+        max-height: 100%;
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+
+    .masonry-with-columns {
+      margin: 0 20px 0 20px;
+    }
+}
