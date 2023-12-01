@@ -81,9 +81,10 @@ export const Posts = {
         description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
        "Downtown". This picture also sparked the start of my pigeon comics, many of which are
        inspired by my walks around the city. I always get a lot of ideas when I visit New York
-       of course too.`,
+       of course too. Visit the Comics tab for more!`,
         more_images: [
             '../images/illustrations/Downtown.jpg',
+            '../images/comics/Opposable_Thumbs.jpg',
         ],
     },
     'valentine-1': {
