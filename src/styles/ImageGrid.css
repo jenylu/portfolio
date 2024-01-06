@@ -12,6 +12,6 @@ a:hover {
 /* medium to small screens */
 @media screen and (max-width: 992px) {
     .gallery-parent {
-        margin: 0 20px 0 20px;
+        margin: 0 15px 0 15px;
     }
 }
