@@ -1,21 +1,26 @@
-import { Link } from 'react-router-dom';
-import { Posts } from '../Constants';
+import { PhotoAlbum } from 'react-photo-album';
+import { useNavigate } from "react-router-dom";
+import { Photos } from '../Constants';
 import '../styles/ImageGrid.css';
 
 function ImageGrid() {
-    const imagesList = Object.entries(Posts).map(([slug, { image }]) => (
-        <a className="thumbnail" key={slug}>
-            <Link to={`/illustration/${slug}`}>
-                <img key={slug} src={image} alt={slug} loading="lazy"/>
-            </Link>
-        </a>
-      ));
+    const navigate = useNavigate();
+    const handleClick = (slug) => {
+        const slugString = JSON.stringify(slug).replace(/\"/g, '');;
+        navigate(`/illustration/${slugString}`)
+    };
 
     return (
         <div className="gallery-parent">
-            <div className="masonry-with-columns">
-                {imagesList}
-            </div>
+            <PhotoAlbum 
+                layout="rows" 
+                photos={Photos}
+                targetRowHeight={350}
+                spacing={15}
+                rowConstraints={{maxPhotos:3}}
+                onClick={({ photo }) => {
+                    handleClick(photo.slug);
+                }} />
         </div>
     );
 }

@@ -1,12 +1,30 @@
+import 'photoswipe/dist/photoswipe.css'
+
 import { useEffect } from 'react';
 import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry';
-import Measure from 'react-measure';
+import { Gallery, Item } from 'react-photoswipe-gallery'
 
 const images = [
-  './images/comics/Opposable_Thumbs.jpg',
-  './images/comics/Side_Salad.jpg',
-  './images/comics/Monsters.jpg',
-  './images/comics/Bath_Time.jpg',
+  {
+    src:  './images/comics/Opposable_Thumbs.jpg',
+    width: 1600,
+    height: 1600,
+  },
+  {
+    src: './images/comics/Side_Salad.jpg',
+    width: 1600,
+    height: 1600,
+  },
+  {
+    src: './images/comics/Monsters.jpg',
+    width: 678,
+    height: 1014,
+  },
+  {
+    src:  './images/comics/Bath_Time.jpg',
+    width: 1600,
+    height: 1600,
+  }
 ];
 
 function Comics() {
@@ -16,26 +34,30 @@ function Comics() {
 
   return (
     <div className="content innerContent">
-      <ResponsiveMasonry
-        columnsCountBreakPoints={{ 300: 1, 500: 2, 700: 3, 900: 4 }}
-      >
-        <Masonry gutter="15px">
-          {images.map((image, i) => (
-            <Measure key={i}>
-              {({ measureRef }) => (
-                  <div ref={measureRef}>
-                      <img
-                          key={i}
-                          src={image}
-                          style={{width: "100%", display: "block"}}
-                          alt=""
-                      />
-                  </div>
+      <Gallery>
+        <ResponsiveMasonry
+          columnsCountBreakPoints={{ 300: 1, 500: 2, 700: 3, 900: 4 }}
+        >
+          <Masonry gutter="15px">
+            {images.map(({src, width, height}) =>
+            (<Item
+              original={src}
+              thumbnail={src}
+              width={width}
+              height={height}>
+              {({ ref, open }) => (
+                <img
+                  style={{ cursor: 'pointer' }}
+                  src={src}
+                  ref={ref}
+                  onClick={open}
+                />
               )}
-            </Measure>
-          ))}
-        </Masonry>
-      </ResponsiveMasonry>
+            </Item>
+            ))}
+          </Masonry>
+        </ResponsiveMasonry>
+      </Gallery>
     </div>
   );
 }

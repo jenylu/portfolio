@@ -1,6 +1,5 @@
 export const Posts = {
     'fear': {
-        image: './images/illustrations/Fears.jpg',
         title: 'Fear',
         description: `This is a redraw of a piece I did a year prior based on the prompt Fear,
          from Beatrice Blue's Childhood Week challenge. It's based on my own memory of having
@@ -14,7 +13,6 @@ export const Posts = {
         ],
     },
     'dragonboat-festival': {
-        image: './images/illustrations/Dragonboat_Festival.jpg',
         title: 'Dragonboat Festival',
         description: `I made this piece as part of a 4 day Warrior Art course I took
          called Painting Festive Scenes with Gloria Félix. We each picked two festivals we wanted
@@ -33,7 +31,6 @@ export const Posts = {
         ],
     },
     'oktoberfest': {
-        image: './images/illustrations/Oktoberfest.jpg',
         title: 'Oktoberfest',
         description: `I created this for the SCBWI SF North & East Bay Oktoberfest 2023 Masthead
          Illustration Contest. The theme was to "capture the essence of the golden season where
@@ -49,7 +46,6 @@ export const Posts = {
         ],
     },
     'guzheng': {
-        image: './images/illustrations/Guzheng.jpg',
         title: 'Guzheng',
         description: `My mom used to play the guzheng for me when I was little. It's a Chinese
          string instrument similar to a harp in some ways and I thought my mom looked so elegant 
@@ -62,7 +58,6 @@ export const Posts = {
         ],
     },
     'goldilocks': {
-        image: './images/illustrations/Goldilocks.jpg',
         title: 'Goldilocks and her Three Bears',
         description: `I wanted to try doing some cover art so I thought about some
          popular fairytales and went with Goldilocks and the Three Bears. I thought about
@@ -76,7 +71,6 @@ export const Posts = {
         ],
     },
     'downtown': {
-        image: './images/illustrations/Downtown.jpg',
         title: 'Downtown',
         description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
        "Downtown". This picture also sparked the start of my pigeon comics, many of which are
@@ -88,7 +82,6 @@ export const Posts = {
         ],
     },
     'valentine-1': {
-        image: './images/illustrations/valentine_1.jpg',
         title: 'Valentine',
         description: `A cute story I made for Valentine's Day of a little girl
        named Juliane and a little boy named Royce. Valentine's Day in elementary
@@ -101,7 +94,6 @@ export const Posts = {
         ],
     },
     'valentine-2': {
-        image: './images/illustrations/valentine_2.jpg',
         title: 'Valentine',
         description: `A cute story I made for Valentine's Day of a little girl
        named Juliane and a little boy named Royce. Valentine's Day in elementary
@@ -112,7 +104,6 @@ export const Posts = {
         ],
     },
     'valentine-3': {
-        image: './images/illustrations/valentine_3.jpg',
         title: 'Valentine',
         description: `A cute story I made for Valentine's Day of a little girl
        named Juliane and a little boy named Royce. Valentine's Day in elementary
@@ -123,7 +114,6 @@ export const Posts = {
         ],
     },
     'summer-markets': {
-        image: './images/illustrations/Summer_Markets.jpg',
         title: 'Summer Markets',
         description: `I won the SCBWI Draw This in July 2023 with the prompt "Snacks" with 
        this piece. I also made it for the month long IG challenge #sweetsummerdays where the prompt was
@@ -134,7 +124,6 @@ export const Posts = {
         ],
     },
     'summer-camping': {
-        image: './images/illustrations/Summer_Camping.jpg',
         title: 'Summer Camping',
         description: `Part of the month long IG challenge #sweetsummerdays for the prompt
        "Summer Camping". This one was a lot of fun to do because it was a night scene 
@@ -148,7 +137,6 @@ export const Posts = {
         ],
     },
     'romantic-summer': {
-        image: './images/illustrations/Romantic_Summer.jpg',
         title: 'Romantic Summer',
         description: `Part of the month long IG challenge #sweetsummerdays for the prompt
        "Romantic Summer". I was inspired by Gus Gordon's books and played more with 
@@ -160,7 +148,6 @@ export const Posts = {
         ],
     },
     'tropical-summer': {
-        image: './images/illustrations/Tropical_Summer.jpg',
         title: 'Tropical Summer',
         description: `Part of the month long IG challenge #sweetsummerdays for the prompt
        "Tropical Summer". This was the first in the challenge series. I decided to continue
@@ -171,7 +158,6 @@ export const Posts = {
         ],
     },
     'bedtime': {
-        image: './images/illustrations/Bedtime.jpg',
         title: 'Bedtime',
         description: `Part of the week-long IG challenge #animaladventuresweek for the prompt "Bedtime".
             Thanks for making it this far and good night!`,
@@ -181,3 +167,76 @@ export const Posts = {
         ],
     },
 };
+
+export const Photos =  [
+    {
+        slug: 'fear',
+        src: './images/illustrations/Fears.jpg',
+        width: 1638, height: 2048 
+    },
+    {
+        slug: 'dragonboat-festival',
+        src: './images/illustrations/Dragonboat_Festival.jpg',
+        width: 2400, height: 1500
+    },
+    {
+        slug: 'oktoberfest',
+        src: './images/illustrations/Oktoberfest.jpg',
+        width: 1530, height: 1980
+    },
+    {
+        slug: 'guzheng',
+        src: './images/illustrations/Guzheng.jpg',
+        width: 2400, height: 1500
+    },
+    {
+        slug: 'goldilocks',
+        src: './images/illustrations/Goldilocks.jpg',
+        width: 1800, height: 2400
+    },
+    {
+        slug: 'downtown',
+        src: './images/illustrations/Downtown.jpg',
+        width: 2400, height: 2400
+    },
+    {
+        slug: 'valentine-1',
+        src: './images/illustrations/valentine_1.jpg',
+        width: 3000, height: 3000
+    },
+    {
+        slug: 'valentine-2',
+        src: './images/illustrations/valentine_2.jpg',
+        width: 3000, height: 3000
+    },
+    {
+        slug: 'valentine-3',
+        src: './images/illustrations/valentine_3.jpg',
+        width: 3000, height: 3000
+    },
+    {
+        slug: 'summer-markets',
+        src: './images/illustrations/Summer_Markets.jpg',
+        width: 2400, height: 2400
+    },
+    {
+        slug: 'summer-camping',
+        src: './images/illustrations/Summer_Camping.jpg',
+        width: 2400, height: 2400
+    },
+    {
+        slug: 'romantic-summer',
+        src: './images/illustrations/Romantic_Summer.jpg',
+        width: 2400, height: 2400
+    },
+    {
+        slug: 'tropical-summer',
+        src: './images/illustrations/Tropical_Summer.jpg',
+        width: 2400, height: 1500
+    },
+    {
+        slug: 'bedtime',
+        src: './images/illustrations/Bedtime.jpg',
+        width: 3000, height: 2400
+    },
+];

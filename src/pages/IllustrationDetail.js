@@ -22,7 +22,7 @@ function IllustrationDetail() {
     if (more_images.length > 0) {
         moreImagesList = (
             more_images.map((image, index) =>
-                <img key={index} src={image} alt={index} />
+                <img key={slug+index} src={image} alt={slug+index} />
             )
         );
     }
