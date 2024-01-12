@@ -50,6 +50,11 @@ function NavigationHeader() {
             </NavLink>
           </li>
           <li>
+            <a className="nav-link" href="https://www.etsy.com/shop/lunaludraws" target="_blank">
+              Store
+            </a>
+          </li>
+          <li>
             <NavLink to="/about"
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
               onClick={handleClick}>

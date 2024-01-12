@@ -15,7 +15,7 @@ function About() {
             <div className="meBlurb">
                 <h1 className="about-title">Hi, I'm Jennifer!</h1>
                 <br />
-                <p> I'm an illustrator/writer based in the Bay Area. My main art tool is Procreate but I also love 
+                <p> I'm an illustrator/writer based in California. My main art tool is Procreate but I also love 
 					working with goauche, collage, and copic markers. I love drawing memories from childhood, portraits,
 					and comics about fancy pigeons. I am a member of SCBWI as well as a student at {' '}
 				    <a class="link" href="https://www.storytelleracademy.com/" target="_blank" rel="noreferrer">Storyteller Academy</a>, {' '}
