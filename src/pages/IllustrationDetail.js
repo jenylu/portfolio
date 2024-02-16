@@ -43,6 +43,8 @@ function IllustrationDetail() {
         }
     }
 
+    const newDesc = description.split('{\n}').map(str => <p>{str}</p>);
+
     return (
         <div className="postContainer">
             <div className="detailsContainer">
@@ -52,8 +54,7 @@ function IllustrationDetail() {
                 <div className="description">
                     <h1 className="title">{title}</h1>
                     <br />
-                    <p> {description}
-                    </p>
+                    {newDesc}
                 </div>
             </div>
             <div className="linkContainer">

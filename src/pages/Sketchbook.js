@@ -8,6 +8,7 @@ const images = [
   { src: './images/scribbles/Fall.jpg'},
   { src: './images/scribbles/wednesday_shapes.jpg' },
   { src: './images/scribbles/Empari_Skates.jpg' },
+  { src: './images/scribbles/TakeABite.jpg' },
   { src: './images/scribbles/Esty.jpg' },
   { src: './images/scribbles/Pink_Girls.jpg' },
   { src: './images/scribbles/cool_girl.jpg' },
@@ -27,11 +28,11 @@ const images = [
   { src: './images/scribbles/Christmas.jpg' },
   { src: './images/scribbles/flower_field.jpg' },
   { src: './images/scribbles/FirstCrush.jpg' },
-  { src: './images/scribbles/TakeABite.jpg' },
   { src: './images/scribbles/Fireplace.jpg' },
   { src: './images/scribbles/Holiday_Robin_Card.jpg' },
   { src: './images/scribbles/Christmas_Pigeon_Card.jpg' },
   { src: './images/scribbles/Christmas_Carol.jpg' },
+  { src: './images/scribbles/Coit_Tower.jpg' },
 ];
 
 function Sketchbook() {

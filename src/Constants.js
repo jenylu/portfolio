@@ -113,6 +113,25 @@ export const Posts = {
             '../images/illustrations/Valentine_Process.jpg',
         ],
     },
+    'mid-autumn-festival': {
+        title: 'Mid-Autumn Festival',
+        description: `I made this piece as part of a 4 day Warrior Art course I took
+        called Painting Festive Scenes with Gloria Félix. We each picked two festivals we wanted
+        to illustrate that took place during the day and night. I picked Mid-Autumn Festival
+        or Moon Festival as my night scene. This is a Chinese holiday celebrated during mid September/early 
+        October which is when it is believed that the moon is at its fullest and brightest, 
+        coinciding with harvest time in autumn. It is celebrated by eating mooncake with your family 
+        and carrying lanterns. There are tales of the rabbit on the moon and the Moon Goddess, hence
+        the illustrations I drew on the lanterns in this piece.{\n}
+        Fun fact, I was the youngest of my cousins growing up which is why I added the small girl at the end, 
+        crying to try and keep up with the rest. Ah the plight of the youngest.`,
+        more_images: [
+            '../images/illustrations/Mid_Autumn_Festival.jpg',
+            '../images/illustrations/Mid_Autumn_Festival_Research.jpg',
+            '../images/illustrations/Mid_Autumn_Festival_Thumbnails.jpg',
+            '../images/illustrations/Mid_Autumn_Festival_Color.jpg',
+        ],
+    },
     'summer-markets': {
         title: 'Summer Markets',
         description: `I won the SCBWI Draw This in July 2023 with the prompt "Snacks" with 
@@ -213,6 +232,11 @@ export const Photos =  [
         slug: 'valentine-3',
         src: './images/illustrations/valentine_3.jpg',
         width: 3000, height: 3000
+    },
+    {
+        slug: 'mid-autumn-festival',
+        src: '../images/illustrations/Mid_Autumn_Festival.jpg',
+        width: 2400, height: 1500
     },
     {
         slug: 'summer-markets',
