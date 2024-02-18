@@ -32,7 +32,7 @@ const images = [
   { src: './images/scribbles/Holiday_Robin_Card.jpg' },
   { src: './images/scribbles/Christmas_Pigeon_Card.jpg' },
   { src: './images/scribbles/Christmas_Carol.jpg' },
-  { src: './images/scribbles/coit_tower.jpg' },
+  { src: './images/scribbles/Coit_Tower.jpg' },
 ];
 
 function Sketchbook() {
