@@ -15,10 +15,10 @@ const images = [
   { src: './images/scribbles/chinese_girl.jpg' },
   { src: './images/scribbles/frog.JPG' },
   { src: './images/scribbles/frog_sketch.JPG' },
-  { src: './images/scribbles/Boy.JPG' },
-  { src: './images/scribbles/Old_Dude.JPG' },
-  { src: './images/scribbles/Wk_3_HW.JPG' },
-  { src: './images/scribbles/Final_Lineup.JPG' },
+  { src: './images/scribbles/Boy.jpg' },
+  { src: './images/scribbles/Old_Dude.jpg' },
+  { src: './images/scribbles/Wk_3_HW.jpg' },
+  { src: './images/scribbles/Final_Lineup.jpg' },
 
   // portraits
   { src: './images/scribbles/mel.jpg' },
