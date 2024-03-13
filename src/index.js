@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/Layout.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'lightbox.js-react/dist/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

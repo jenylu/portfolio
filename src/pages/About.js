@@ -15,13 +15,22 @@ function About() {
             <div className="meBlurb">
                 <h1 className="about-title">Hi, I'm Jennifer!</h1>
                 <br />
-                <p> I'm an illustrator/writer based in California. My main art tool is Procreate but I also love 
-					working with goauche, collage, and copic markers. I love drawing memories from childhood, portraits,
-					and comics about fancy pigeons. I am a member of SCBWI as well as a student at {' '}
+                <p> I'm an illustrator/writer living in San Francisco. 
+                    I've loved making art since I was a kid. In the third grade after being told that
+                    I couldn't choose being a mom (by my own mom because "that's not what the assignment
+                    meant"), I said I wanted to be an artist when I grew up.
+                    I like creating art that is heartwarming, funny, and relatable. 
+                    I also love drawing street fashion, portraits, and comics about fancy pigeons. 
+                    I am a member of SCBWI as well as a student at {' '}
 				    <a class="link" href="https://www.storytelleracademy.com/" target="_blank" rel="noreferrer">Storyteller Academy</a>, {' '}
 					<a class="link" href="https://www.svslearn.com/" target="_blank" rel="noreferrer">School of Visual Storytelling</a>, and {' '}
-					<a class="link" href="https://www.warriorartcamp.com/" target="_blank" rel="noreferrer">Warrior Art</a>.
-					When I'm not drawing, I'm coding or rollerskating. I am currently looking for representation. 
+					<a class="link" href="https://www.warriorartcamp.com/" target="_blank" rel="noreferrer">Warrior Art Camp</a>.
+					When I'm not drawing, I'm coding or rollerskating. 
+                </p>
+                <p>
+                    My main art tool is Procreate but I also love working with goauche, collage, and copic markers.
+                
+                    <b> I am currently looking for representation. </b>
                 </p>
                 <br />
                 <p> Contact me at <a className="link" href="mailto: lu.jennifer@outlook.com">lu.jennifer@outlook.com</a> </p>

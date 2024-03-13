@@ -1,34 +1,43 @@
 import { useEffect } from 'react';
-import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry';
-import Measure from 'react-measure';
+import {initLightboxJS, SlideshowLightbox} from 'lightbox.js-react'
 
 const images = [
-  { src: './images/scribbles/mel.jpg' },
+  // characters
   { src: './images/scribbles/rollerskater_afro.jpg' },
-  { src: './images/scribbles/Fall.jpg'},
-  { src: './images/scribbles/wednesday_shapes.jpg' },
   { src: './images/scribbles/Empari_Skates.jpg' },
-  { src: './images/scribbles/TakeABite.jpg' },
+  { src: './images/scribbles/Kels.jpg' },
   { src: './images/scribbles/Esty.jpg' },
-  { src: './images/scribbles/Pink_Girls.jpg' },
+
   { src: './images/scribbles/cool_girl.jpg' },
-  { src: './images/scribbles/vi.jpg' },
+  { src: './images/scribbles/Pink_Girls.jpg' },
+  { src: './images/scribbles/wednesday_shapes.jpg' },
   { src: './images/scribbles/wednesday.jpg' },
   { src: './images/scribbles/chinese_girl.jpg' },
-  { src: './images/scribbles/jinx.jpg' },
-  { src: './images/scribbles/Kels.jpg' },
-  { src: './images/scribbles/mehalia_2.jpg' },
-  { src: './images/scribbles/mehalia.jpg' },
-  { src: './images/scribbles/Morning_Has_Broken.jpg' },
-  { src: './images/scribbles/tati.jpg' },
   { src: './images/scribbles/frog.JPG' },
   { src: './images/scribbles/frog_sketch.JPG' },
+  { src: './images/scribbles/Boy.JPG' },
+  { src: './images/scribbles/Old_Dude.JPG' },
+  { src: './images/scribbles/Wk_3_HW.JPG' },
+  { src: './images/scribbles/Final_Lineup.JPG' },
+
+  // portraits
+  { src: './images/scribbles/mel.jpg' },
+  { src: './images/scribbles/jinx.jpg' },
+  { src: './images/scribbles/vi.jpg' },
+  { src: './images/scribbles/mehalia_2.jpg' },
+  { src: './images/scribbles/mehalia.jpg' },
+  { src: './images/scribbles/tati.jpg' },
+
+  // collage and misc
   { src: './images/scribbles/Swings.jpg' },
-  { src: './images/scribbles/On_The_Farm.jpg' },
-  { src: './images/scribbles/Christmas.jpg' },
-  { src: './images/scribbles/flower_field.jpg' },
+  { src: './images/scribbles/Fall.jpg'},
   { src: './images/scribbles/FirstCrush.jpg' },
   { src: './images/scribbles/Fireplace.jpg' },
+  { src: './images/scribbles/TakeABite.jpg' },
+
+  // cards
+  { src: './images/scribbles/Christmas.jpg' },
+  { src: './images/scribbles/thankyou_flowerfield.jpg' },
   { src: './images/scribbles/Holiday_Robin_Card.jpg' },
   { src: './images/scribbles/Christmas_Pigeon_Card.jpg' },
   { src: './images/scribbles/Christmas_Carol.jpg' },
@@ -37,33 +46,26 @@ const images = [
 
 function Sketchbook() {
   useEffect(() => {
+    initLightboxJS("Insert your License Key here", "individual");
+  }, []);
+
+  useEffect(() => {
     document.title = 'Jennifer Lu | Sketchbook';
   }, []);
 
   return (
     <div className="content innerContent">
-      <ResponsiveMasonry
-        columnsCountBreakPoints={{ 300: 2, 500: 2, 700: 3, 900: 4 }}
-      >
-        <Masonry gutter="15px">
-          {images.map(({src}, i) => (
-            <Measure key={i}>
-              {({ measureRef }) => (
-                  <div ref={measureRef}>
-                    <img
-                        key={i}
-                        src={src}
-                        style={{width: "100%", display: "block"}}
-                        alt=""
-                    />
-                  </div>
-              )}
-            </Measure>
-          ))}
-        </Masonry>
-      </ResponsiveMasonry>
-    </div>
-  );
+      <SlideshowLightbox className="" lightboxIdentifier="lightbox1" theme="lightbox">
+        {images.map((image) => (
+            <img
+              className="lightboxGrid"
+              src={image.src}
+              data-lightboxjs="lightbox1"
+              quality={80}
+            />
+        ))}
+      </SlideshowLightbox>
+    </div>);
 }
 
 export default Sketchbook;

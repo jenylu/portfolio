@@ -24,7 +24,27 @@ const images = [
     src:  './images/comics/Bath_Time.jpg',
     width: 1600,
     height: 1600,
-  }
+  },
+  {
+    src: './images/scribbles/Christmas_Pigeon_Card.jpg',
+    width: 1350,
+    height: 1725,
+  },
+  {
+    src: './images/comics/Birthday_Pigeon_Card.jpg',
+    width: 1350,
+    height: 1725,
+  },
+  {
+    src: './images/comics/St_Patricks_Pigeon_Card.jpg',
+    width: 1350,
+    height: 1725,
+  },
+  {
+    src: './images/comics/Easter_Pigeon_Card.jpg',
+    width: 1350,
+    height: 1725,
+  },
 ];
 
 function Comics() {
