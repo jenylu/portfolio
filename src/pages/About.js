@@ -25,6 +25,23 @@ function About() {
 					When I'm not drawing, I'm coding or rollerskating. 
                 </p>
                 <p>
+                    I've loved to draw since I was a kid, a fact that was further solidified 
+                    by the third grade when we had to choose what we wanted to be when we grew up
+                    and I said "a mom" and my mom said "no that isn't what they mean", and I said
+                    "fine then an artist". By high school it became clear that my parents did not 
+                    actually want me to be an artist even though I had been taking classes up to this point
+                    so I entered college as an Econ major before
+                    switching to Computer Science because of an initial desire to try to pursue
+                    Animation. Ironically art led me to CS but I learned that Computer Graphics is really 
+                    mostly about math
+                    and that actually it was the drawing part of animation that I wanted to do.
+                    I was on and off doodling in my sketchbook throughout this time until Covid hit 
+                    and a Facebook ad led me to Storyteller Academy. I discovered that children's illustration
+                    was another potential avenue that I could go and loved doing. Stories and art have been the 
+                    two things that I've always enjoyed making and since then I've focused on building my portfolio
+                    (as said above).
+                </p>
+                <p>
                     My main art tool is Procreate but I also love working with goauche, collage, and copic markers.          
                     <b> I am currently looking for representation. </b>
                 </p>
