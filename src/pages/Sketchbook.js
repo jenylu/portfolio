@@ -39,9 +39,9 @@ const images = [
   { src: './images/scribbles/Christmas.jpg' },
   { src: './images/scribbles/thankyou_flowerfield.jpg' },
   { src: './images/scribbles/Holiday_Robin_Card.jpg' },
-  { src: './images/scribbles/Christmas_Pigeon_Card.jpg' },
   { src: './images/scribbles/Christmas_Carol.jpg' },
   { src: './images/scribbles/Coit_Tower.jpg' },
+  { src: './images/scribbles/Golden_Gate_Bridge.jpg' },
 ];
 
 function Sketchbook() {

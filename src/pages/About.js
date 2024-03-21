@@ -17,7 +17,7 @@ function About() {
                 <br />
                 <p> I'm an illustrator/writer living in San Francisco. 
                     I've loved making art since I was a kid. In the third grade after being told that
-                    I couldn't choose being a mom (by my own mom because "that's not what the assignment
+                    I couldn't choose being a mom (because "that's not what the assignment
                     meant"), I said I wanted to be an artist when I grew up.
                     I like creating art that is heartwarming, funny, and relatable. 
                     I also love drawing street fashion, portraits, and comics about fancy pigeons. 
