@@ -16,9 +16,6 @@ function About() {
                 <h1 className="about-title">Hi, I'm Jennifer!</h1>
                 <br />
                 <p> I'm an illustrator/writer living in San Francisco. 
-                    I've loved making art since I was a kid. In the third grade after being told that
-                    I couldn't choose being a mom (because "that's not what the assignment
-                    meant"), I said I wanted to be an artist when I grew up.
                     I like creating art that is heartwarming, funny, and relatable. 
                     I also love drawing street fashion, portraits, and comics about fancy pigeons. 
                     I am a member of SCBWI as well as a student at {' '}
@@ -28,8 +25,7 @@ function About() {
 					When I'm not drawing, I'm coding or rollerskating. 
                 </p>
                 <p>
-                    My main art tool is Procreate but I also love working with goauche, collage, and copic markers.
-                
+                    My main art tool is Procreate but I also love working with goauche, collage, and copic markers.          
                     <b> I am currently looking for representation. </b>
                 </p>
                 <br />
