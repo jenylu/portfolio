@@ -8,8 +8,15 @@ export const Posts = {
          time I drew it and I think the result shows.`,
         more_images: [
             '../images/illustrations/Fears.jpg',
-            '../images/illustrations/Fear_Before.jpg',
             '../images/illustrations/Fear_Process.jpg',
+        ],
+    },
+    'hoop-dreams': {
+        title: 'Hoop Dreams',
+        description: `This is an accompanying piece with my other piece Fear but instead of a diving
+        board, I have the oh so tall basketball hoop. This was based off a photo of my brother when he was little.`,
+        more_images: [
+            '../images/illustrations/Hoop_Dreams.jpg',
         ],
     },
     'dragonboat-festival': {
@@ -28,21 +35,6 @@ export const Posts = {
             '../images/illustrations/Dragonboat_Color_Roughs_2.jpg',
             '../images/illustrations/Dragonboat_Color_Roughs_3.jpg',
             '../images/illustrations/Dragonboat_Color_Roughs_4.jpg'
-        ],
-    },
-    'oktoberfest': {
-        title: 'Oktoberfest',
-        description: `I created this for the SCBWI SF North & East Bay Oktoberfest 2023 Masthead
-         Illustration Contest. The theme was to "capture the essence of the golden season where
-         we hold the Oktoberfest conference, our beloved SF & North Bay geographical region,
-         with a delightful nod to the world of books". Other requirements included the size 
-         8.5" x 11" and room for a title as well as a signature at the bottom. Using the theme given, 
-         I brainstormed some ideas that would fit and came up with this piece. I also used it for
-         a promo postcard.`,
-        more_images: [
-            '../images/illustrations/Oktoberfest.jpg',
-            '../images/illustrations/Oktoberfest_Process.jpg',
-            '../images/illustrations/Oktoberfest_Postcard.jpg'
         ],
     },
     'guzheng': {
@@ -70,15 +62,19 @@ export const Posts = {
             '../images/illustrations/Goldilocks_Value.jpg',
         ],
     },
-    'downtown': {
-        title: 'Downtown',
-        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
-       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
-       inspired by my walks around the city. I always get a lot of ideas when I visit New York
-       of course too. Visit the Comics tab for more!`,
+    'oktoberfest': {
+        title: 'Oktoberfest',
+        description: `I created this for the SCBWI SF North & East Bay Oktoberfest 2023 Masthead
+         Illustration Contest. The theme was to "capture the essence of the golden season where
+         we hold the Oktoberfest conference, our beloved SF & North Bay geographical region,
+         with a delightful nod to the world of books". Other requirements included the size 
+         8.5" x 11" and room for a title as well as a signature at the bottom. Using the theme given, 
+         I brainstormed some ideas that would fit and came up with this piece. I also used it for
+         a promo postcard.`,
         more_images: [
-            '../images/illustrations/Downtown.jpg',
-            '../images/comics/Opposable_Thumbs.jpg',
+            '../images/illustrations/Oktoberfest.jpg',
+            '../images/illustrations/Oktoberfest_Process.jpg',
+            '../images/illustrations/Oktoberfest_Postcard.jpg'
         ],
     },
     'valentine-1': {
@@ -130,6 +126,17 @@ export const Posts = {
             '../images/illustrations/Mid_Autumn_Festival_Research.jpg',
             '../images/illustrations/Mid_Autumn_Festival_Thumbnails.jpg',
             '../images/illustrations/Mid_Autumn_Festival_Color.jpg',
+        ],
+    },
+    'downtown': {
+        title: 'Downtown',
+        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
+       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
+       inspired by my walks around the city. I always get a lot of ideas when I visit New York
+       of course too. Visit the Comics tab for more!`,
+        more_images: [
+            '../images/illustrations/Downtown.jpg',
+            '../images/comics/Opposable_Thumbs.jpg',
         ],
     },
     'summer-markets': {
@@ -194,14 +201,14 @@ export const Photos =  [
         width: 1638, height: 2048 
     },
     {
+        slug: 'hoop-dreams',
+        src: './images/illustrations/Hoop_Dreams.jpg',
+        width: 1638, height: 2048 
+    },
+    {
         slug: 'dragonboat-festival',
         src: './images/illustrations/Dragonboat_Festival.jpg',
         width: 2400, height: 1500
-    },
-    {
-        slug: 'oktoberfest',
-        src: './images/illustrations/Oktoberfest.jpg',
-        width: 1530, height: 1980
     },
     {
         slug: 'guzheng',
@@ -214,9 +221,9 @@ export const Photos =  [
         width: 1800, height: 2400
     },
     {
-        slug: 'downtown',
-        src: './images/illustrations/Downtown.jpg',
-        width: 2400, height: 2400
+        slug: 'oktoberfest',
+        src: './images/illustrations/Oktoberfest.jpg',
+        width: 1530, height: 1980
     },
     {
         slug: 'valentine-1',
@@ -237,6 +244,11 @@ export const Photos =  [
         slug: 'mid-autumn-festival',
         src: '../images/illustrations/Mid_Autumn_Festival.jpg',
         width: 2400, height: 1500
+    },
+    {
+        slug: 'downtown',
+        src: './images/illustrations/Downtown.jpg',
+        width: 2400, height: 2400
     },
     {
         slug: 'summer-markets',

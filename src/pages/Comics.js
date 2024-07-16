@@ -45,6 +45,11 @@ const images = [
     width: 1350,
     height: 1725,
   },
+  {
+    src: './images/comics/Birthday_Cake.jpg',
+    width: 1350,
+    height: 1725,
+  },
 ];
 
 function Comics() {
