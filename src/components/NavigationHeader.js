@@ -36,13 +36,6 @@ function NavigationHeader() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/sketchbook"
-              className={({ isActive }) => (isActive ? 'active' : 'inactive')}
-              onClick={handleClick}>
-              Sketchbook
-            </NavLink>
-          </li>
-          <li>
             <NavLink to="/comics"
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
               onClick={handleClick}>
