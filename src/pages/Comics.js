@@ -26,7 +26,7 @@ const images = [
     height: 1600,
   },
   {
-    src: './images/scribbles/Christmas_Pigeon_Card.jpg',
+    src: './images/comics/Christmas_Pigeon_Card.jpg',
     width: 1350,
     height: 1725,
   },
