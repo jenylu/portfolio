@@ -46,7 +46,7 @@ function About() {
                     <b> I am currently looking for representation. </b>
                 </p>
                 <br />
-                <p> Contact me at <a className="link" href="mailto: lu.jennifer@outlook.com">lu.jennifer@outlook.com</a> </p>
+                <p> Contact me at <a className="link" href="mailto: jenlucreates@gmail.com">jenlucreates@gmail.com</a> </p>
                 <br />
                 <p> To see more of my art journey, check out my Instagram account {' '}
                     <a className="link" href="https://www.instagram.com/lunaludraws" target="_blank" rel="noreferrer">
