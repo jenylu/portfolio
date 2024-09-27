@@ -47,6 +47,15 @@ function IllustrationDetail() {
 
     return (
         <div className="postContainer">
+            <div className="linkContainer">
+                <div className="left">
+                    <Link to={`/`} style={linkStyle}> Back to Illustration </Link>
+                </div>
+                <div className="right">
+                    {prevSlug !== '' && <Link to={`/illustration/${prevSlug}`}  style={linkStyle}> prev </Link>}
+                    / {nextSlug !== '' && <Link to={`/illustration/${nextSlug}`}  style={linkStyle}> next </Link>}
+                </div>
+            </div>
             <div className="detailsContainer">
                 <div className="detailImages">
                     {moreImagesList != null ? moreImagesList : null}

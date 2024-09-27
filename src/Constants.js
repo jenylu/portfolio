@@ -2,21 +2,11 @@ export const Posts = {
     'fear': {
         title: 'Fear',
         description: `This is a redraw of a piece I did a year prior based on the prompt Fear,
-         from Beatrice Blue's Childhood Week challenge. It's based on my own memory of having
-         to learn how to high dive the first time. I learned more about perspective and composition 
-         as well as how to use Procreate at this point compared to the first 
-         time I drew it and I think the result shows.`,
+         from Beatrice Blue's Childhood Week challenge. It's based on my own childhood memory when I
+         had to learn how to dive off the board for the first time.`,
         more_images: [
             '../images/illustrations/Fears.jpg',
             '../images/illustrations/Fear_Process.jpg',
-        ],
-    },
-    'hoop-dreams': {
-        title: 'Hoop Dreams',
-        description: `This is an accompanying piece with my other piece Fear but instead of a diving
-        board, I have the oh so tall basketball hoop. This was based off a photo of my brother when he was little.`,
-        more_images: [
-            '../images/illustrations/Hoop_Dreams.jpg',
         ],
     },
     'dragonboat-festival': {
@@ -37,6 +27,19 @@ export const Posts = {
             '../images/illustrations/Dragonboat_Color_Roughs_4.jpg'
         ],
     },
+    'goldilocks': {
+        title: 'Goldilocks and her Three Bears',
+        description: `I wanted to try doing some cover art so I thought about some
+         popular fairytales and went with Goldilocks and the Three Bears. I thought about
+         the parts of the plot that I wanted to show from the cover like how Goldilocks
+         is clearly taking over the bears' home and how it seems to be Baby Bear that is 
+         suffering the most... And this is what I came up with. Would you read this book?`,
+        more_images: [
+            '../images/illustrations/Goldilocks.jpg',
+            '../images/illustrations/Goldilocks_Thumbnails.jpg',
+            '../images/illustrations/Goldilocks_Value.jpg',
+        ],
+    },
     'guzheng': {
         title: 'Guzheng',
         description: `My mom used to play the guzheng for me when I was little. It's a Chinese
@@ -49,17 +52,15 @@ export const Posts = {
             '../images/illustrations/Guzheng_Process.jpg',
         ],
     },
-    'goldilocks': {
-        title: 'Goldilocks and her Three Bears',
-        description: `I wanted to try doing some cover art so I thought about some
-         popular fairytales and went with Goldilocks and the Three Bears. I thought about
-         the parts of the plot that I wanted to show from the cover like how Goldilocks
-         is clearly taking over the bears' home and how it seems to be Baby Bear that is 
-         suffering the most... And this is what I came up with. Would you read this book?`,
+    'downtown': {
+        title: 'Downtown',
+        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
+       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
+       inspired by my walks around the city. I always get a lot of ideas when I visit New York
+       of course too. Visit the Comics tab for more!`,
         more_images: [
-            '../images/illustrations/Goldilocks.jpg',
-            '../images/illustrations/Goldilocks_Thumbnails.jpg',
-            '../images/illustrations/Goldilocks_Value.jpg',
+            '../images/illustrations/Downtown.jpg',
+            '../images/comics/Opposable_Thumbs.jpg',
         ],
     },
     'oktoberfest': {
@@ -128,17 +129,6 @@ export const Posts = {
             '../images/illustrations/Mid_Autumn_Festival_Color.jpg',
         ],
     },
-    'downtown': {
-        title: 'Downtown',
-        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
-       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
-       inspired by my walks around the city. I always get a lot of ideas when I visit New York
-       of course too. Visit the Comics tab for more!`,
-        more_images: [
-            '../images/illustrations/Downtown.jpg',
-            '../images/comics/Opposable_Thumbs.jpg',
-        ],
-    },
     'summer-markets': {
         title: 'Summer Markets',
         description: `I won the SCBWI Draw This in July 2023 with the prompt "Snacks" with 
@@ -201,14 +191,14 @@ export const Photos =  [
         width: 1638, height: 2048 
     },
     {
-        slug: 'hoop-dreams',
-        src: './images/illustrations/Hoop_Dreams.jpg',
-        width: 1638, height: 2048 
-    },
-    {
         slug: 'dragonboat-festival',
         src: './images/illustrations/Dragonboat_Festival.jpg',
         width: 2400, height: 1500
+    },
+    {
+        slug: 'goldilocks',
+        src: './images/illustrations/Goldilocks.jpg',
+        width: 1800, height: 2400
     },
     {
         slug: 'guzheng',
@@ -216,9 +206,9 @@ export const Photos =  [
         width: 2400, height: 1500
     },
     {
-        slug: 'goldilocks',
-        src: './images/illustrations/Goldilocks.jpg',
-        width: 1800, height: 2400
+        slug: 'downtown',
+        src: './images/illustrations/Downtown.jpg',
+        width: 2400, height: 2400
     },
     {
         slug: 'oktoberfest',
@@ -244,11 +234,6 @@ export const Photos =  [
         slug: 'mid-autumn-festival',
         src: '../images/illustrations/Mid_Autumn_Festival.jpg',
         width: 2400, height: 1500
-    },
-    {
-        slug: 'downtown',
-        src: './images/illustrations/Downtown.jpg',
-        width: 2400, height: 2400
     },
     {
         slug: 'summer-markets',
