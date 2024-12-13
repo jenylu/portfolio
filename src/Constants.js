@@ -40,16 +40,27 @@ export const Posts = {
             '../images/illustrations/Goldilocks_Value.jpg',
         ],
     },
-    'guzheng': {
-        title: 'Guzheng',
-        description: `My mom used to play the guzheng for me when I was little. It's a Chinese
-         string instrument similar to a harp in some ways and I thought my mom looked so elegant 
-         playing and that the music was so pretty. I never learned how to play it but I made 
-         this piece inspired by that memory.`,
+    'lily-scatting': {
+        title: 'Lily Scatting',
+        description: `Part of a manuscript that I am working on about a shy introverted
+        frog loses her voice. This is one of the last spreads where she finally
+        gets her voice back.`,
         more_images: [
-            '../images/illustrations/Guzheng.jpg',
-            '../images/illustrations/Guzheng_Thumbnails.jpg',
-            '../images/illustrations/Guzheng_Process.jpg',
+            '../images/illustrations/Lily_Scatting.jpg',
+            '../images/illustrations/Lily_Dance.jpg',
+            '../images/illustrations/frog.jpg',
+            '../images/illustrations/frog_sketch.jpg',
+        ],
+    },
+    'lily-scared': {
+        title: 'Lily Scared',
+        description: `Part of a manuscript that I am working on about a shy introverted
+        frog loses her voice. This is a page where Lily gets stage freight.`,
+        more_images: [
+            '../images/illustrations/Lily_Scared.jpg',
+            '../images/illustrations/Lily_Scatting.jpg',
+            '../images/illustrations/frog.jpg',
+            '../images/illustrations/frog_sketch.jpg',
         ],
     },
     'downtown': {
@@ -61,6 +72,18 @@ export const Posts = {
         more_images: [
             '../images/illustrations/Downtown.jpg',
             '../images/comics/Opposable_Thumbs.jpg',
+        ],
+    },
+    'guzheng': {
+        title: 'Guzheng',
+        description: `My mom used to play the guzheng for me when I was little. It's a Chinese
+         string instrument similar to a harp in some ways and I thought my mom looked so elegant 
+         playing and that the music was so pretty. I never learned how to play it but I made 
+         this piece inspired by that memory.`,
+        more_images: [
+            '../images/illustrations/Guzheng.jpg',
+            '../images/illustrations/Guzheng_Thumbnails.jpg',
+            '../images/illustrations/Guzheng_Process.jpg',
         ],
     },
     'oktoberfest': {
@@ -110,6 +133,42 @@ export const Posts = {
             '../images/illustrations/Valentine_Process.jpg',
         ],
     },
+    'rollin': {
+        title: 'Rollin',
+        description: `As part of an exercise, I drew as many gestures of 
+        kids playing as I could and then picked a few to finish with color.
+        This one was from my own childhood photo, pedalling away on my Sesame Street
+        3-wheeler.`,
+        more_images: [
+            '../images/illustrations/rollin.jpg',
+            '../images/illustrations/rollin_photo.jpg',
+            '../images/illustrations/Kids_playing.jpg',
+        ],
+    },
+    'firecracker': {
+        title: 'Firecracker',
+        description: `As part of an exercise, I drew as many gestures of 
+        kids playing as I could and then picked a few to finish with color.
+        This one was from my mom's childhood photo from when my uncle was lighting
+        up firecrackers. She was the smaller one.`,
+        more_images: [
+            '../images/illustrations/Firecracker.jpg',
+            '../images/illustrations/Firecracker_photo.jpg',
+            '../images/illustrations/Kids_playing.jpg',
+        ],
+    },
+    'cake': {
+        title: 'Cake',
+        description: `As part of an exercise, I drew as many gestures of 
+        kids playing as I could and then picked a few to finish with color.
+        This one was from my mom's childhood photo where they were celebrating
+        a birthday with the whole family. It's one of my favorite photos.`,
+        more_images: [
+            '../images/illustrations/Cake.jpg',
+            '../images/illustrations/Cake_photo.jpg',
+            '../images/illustrations/Kids_playing.jpg',
+        ],
+    },
     'mid-autumn-festival': {
         title: 'Mid-Autumn Festival',
         description: `I made this piece as part of a 4 day Warrior Art course I took
@@ -137,19 +196,6 @@ export const Posts = {
         more_images: [
             '../images/illustrations/Summer_Markets.jpg',
             '../images/illustrations/Summer_Market_Process.jpg',
-        ],
-    },
-    'summer-camping': {
-        title: 'Summer Camping',
-        description: `Part of the month long IG challenge #sweetsummerdays for the prompt
-       "Summer Camping". This one was a lot of fun to do because it was a night scene 
-       around a campfire. I was doing something new with the colors that I hadn't done 
-       before and mainly focused on oranges and blues. It forced me to rely a lot more on 
-       value as well. There's some behind the scenes with how I made these reference photos
-       as well if you scour through my IG...`,
-        more_images: [
-            '../images/illustrations/Summer_Camping.jpg',
-            '../images/illustrations/Summer_Camping_Process.jpg',
         ],
     },
     'romantic-summer': {
@@ -201,14 +247,24 @@ export const Photos =  [
         width: 1800, height: 2400
     },
     {
-        slug: 'guzheng',
-        src: './images/illustrations/Guzheng.jpg',
+        slug: 'lily-scatting',
+        src: './images/illustrations/Lily_Scatting.jpg',
         width: 2400, height: 1500
+    },
+    {
+        slug: 'lily-scared',
+        src: './images/illustrations/Lily_Scared.jpg',
+        width: 1800, height: 2400
     },
     {
         slug: 'downtown',
         src: './images/illustrations/Downtown.jpg',
         width: 2400, height: 2400
+    },
+    {
+        slug: 'guzheng',
+        src: './images/illustrations/Guzheng.jpg',
+        width: 2400, height: 1500
     },
     {
         slug: 'oktoberfest',
@@ -231,6 +287,21 @@ export const Photos =  [
         width: 3000, height: 3000
     },
     {
+        slug: 'rollin',
+        src: './images/illustrations/Rollin.jpg',
+        width: 3000, height: 3000
+    },
+    {
+        slug: 'firecracker',
+        src: './images/illustrations/Firecracker.jpg',
+        width: 3000, height: 3000
+    },
+    {
+        slug: 'cake',
+        src: './images/illustrations/Cake.jpg',
+        width: 3000, height: 3000
+    },
+    {
         slug: 'mid-autumn-festival',
         src: '../images/illustrations/Mid_Autumn_Festival.jpg',
         width: 2400, height: 1500
@@ -238,11 +309,6 @@ export const Photos =  [
     {
         slug: 'summer-markets',
         src: './images/illustrations/Summer_Markets.jpg',
-        width: 2400, height: 2400
-    },
-    {
-        slug: 'summer-camping',
-        src: './images/illustrations/Summer_Camping.jpg',
         width: 2400, height: 2400
     },
     {
