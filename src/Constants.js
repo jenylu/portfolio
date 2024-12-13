@@ -43,24 +43,24 @@ export const Posts = {
     'lily-scatting': {
         title: 'Lily Scatting',
         description: `Part of a manuscript that I am working on about a shy introverted
-        frog loses her voice. This is one of the last spreads where she finally
+        frog who loses her voice. This is one of the last spreads where she finally
         gets her voice back.`,
         more_images: [
             '../images/illustrations/Lily_Scatting.jpg',
             '../images/illustrations/Lily_Dance.jpg',
-            '../images/illustrations/frog.jpg',
-            '../images/illustrations/frog_sketch.jpg',
+            '../images/illustrations/frog.JPG',
+            '../images/illustrations/frog_sketch.JPG',
         ],
     },
     'lily-scared': {
         title: 'Lily Scared',
         description: `Part of a manuscript that I am working on about a shy introverted
-        frog loses her voice. This is a page where Lily gets stage freight.`,
+        frog who loses her voice. This is a page where Lily gets stage freight.`,
         more_images: [
             '../images/illustrations/Lily_Scared.jpg',
             '../images/illustrations/Lily_Scatting.jpg',
-            '../images/illustrations/frog.jpg',
-            '../images/illustrations/frog_sketch.jpg',
+            '../images/illustrations/frog.JPG',
+            '../images/illustrations/frog_sketch.JPG',
         ],
     },
     'downtown': {
@@ -140,8 +140,8 @@ export const Posts = {
         This one was from my own childhood photo, pedalling away on my Sesame Street
         3-wheeler.`,
         more_images: [
-            '../images/illustrations/rollin.jpg',
-            '../images/illustrations/rollin_photo.jpg',
+            '../images/illustrations/Rollin.jpg',
+            '../images/illustrations/Rollin_photo.jpg',
             '../images/illustrations/Kids_playing.jpg',
         ],
     },
