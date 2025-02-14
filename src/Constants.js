@@ -40,6 +40,17 @@ export const Posts = {
             '../images/illustrations/Goldilocks_Value.jpg',
         ],
     },
+    'lily-scared': {
+        title: 'Lily Scared',
+        description: `Part of a manuscript that I am working on about a shy introverted
+        frog who loses her voice. This is a page where Lily gets stage freight.`,
+        more_images: [
+            '../images/illustrations/Lily_Scared.jpg',
+            '../images/illustrations/Lily_Gestures.jpg',
+            '../images/illustrations/frog.JPG',
+            '../images/illustrations/frog_sketch.JPG',
+        ],
+    },
     'lily-scatting': {
         title: 'Lily Scatting',
         description: `Part of a manuscript that I am working on about a shy introverted
@@ -48,17 +59,6 @@ export const Posts = {
         more_images: [
             '../images/illustrations/Lily_Scatting.jpg',
             '../images/illustrations/Lily_Dance.jpg',
-            '../images/illustrations/frog.JPG',
-            '../images/illustrations/frog_sketch.JPG',
-        ],
-    },
-    'lily-scared': {
-        title: 'Lily Scared',
-        description: `Part of a manuscript that I am working on about a shy introverted
-        frog who loses her voice. This is a page where Lily gets stage freight.`,
-        more_images: [
-            '../images/illustrations/Lily_Scared.jpg',
-            '../images/illustrations/Lily_Scatting.jpg',
             '../images/illustrations/frog.JPG',
             '../images/illustrations/frog_sketch.JPG',
         ],
@@ -247,14 +247,14 @@ export const Photos =  [
         width: 1800, height: 2400
     },
     {
-        slug: 'lily-scatting',
-        src: './images/illustrations/Lily_Scatting.jpg',
+        slug: 'lily-scared',
+        src: './images/illustrations/Lily_Scared.jpg',
         width: 2400, height: 1500
     },
     {
-        slug: 'lily-scared',
-        src: './images/illustrations/Lily_Scared.jpg',
-        width: 1800, height: 2400
+        slug: 'lily-scatting',
+        src: './images/illustrations/Lily_Scatting.jpg',
+        width: 2400, height: 1500
     },
     {
         slug: 'downtown',
