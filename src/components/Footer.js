@@ -4,7 +4,7 @@ function Footer() {
             <section className="d-flex justify-content-center justify-content-sm-between p-4 flex-wrap">
                 {/* <!-- Left --> */}
                 <div className="d-lg-block">
-                    <span>ALL IMAGES © 2023 JENNIFER LU</span>
+                    <span>ALL IMAGES © 2025 JENNIFER LU</span>
                 </div>
                 {/* <!-- Left --> */}
 
