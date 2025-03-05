@@ -63,6 +63,17 @@ export const Posts = {
             '../images/illustrations/frog_sketch.JPG',
         ],
     },
+    'downtown': {
+        title: 'Downtown',
+        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
+       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
+       inspired by my walks around the city. I always get a lot of ideas when I visit New York
+       of course too. Visit the Comics tab for more!`,
+        more_images: [
+            '../images/illustrations/Downtown.jpg',
+            '../images/comics/Opposable_Thumbs.jpg',
+        ],
+    },
     'valentine-1': {
         title: 'Valentine',
         description: `A cute story I made for Valentine's Day of a little girl
@@ -129,17 +140,6 @@ export const Posts = {
             '../images/illustrations/Cake.jpg',
             '../images/illustrations/Cake_photo.jpg',
             '../images/illustrations/Kids_playing.jpg',
-        ],
-    },
-    'downtown': {
-        title: 'Downtown',
-        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
-       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
-       inspired by my walks around the city. I always get a lot of ideas when I visit New York
-       of course too. Visit the Comics tab for more!`,
-        more_images: [
-            '../images/illustrations/Downtown.jpg',
-            '../images/comics/Opposable_Thumbs.jpg',
         ],
     },
     'guzheng': {
@@ -231,6 +231,11 @@ export const Photos =  [
         width: 2400, height: 1500
     },
     {
+        slug: 'downtown',
+        src: './images/illustrations/Downtown.jpg',
+        width: 2400, height: 2400
+    },
+    {
         slug: 'valentine-1',
         src: './images/illustrations/valentine_1.jpg',
         width: 3000, height: 3000
@@ -259,11 +264,6 @@ export const Photos =  [
         slug: 'cake',
         src: './images/illustrations/Cake.jpg',
         width: 3000, height: 3000
-    },
-    {
-        slug: 'downtown',
-        src: './images/illustrations/Downtown.jpg',
-        width: 2400, height: 2400
     },
     {
         slug: 'guzheng',
