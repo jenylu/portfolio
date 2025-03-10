@@ -19,7 +19,9 @@ function About() {
                     I like creating art that is heartwarming, funny, and relatable. I am inspired by street fashion 
                     and street pigeons (for my comics). Outside of digital work, I enjoy experimenting with cut-paper 
                     collage as well as mixed-media in my travel sketchbook.
-                    I am a member of SCBWI as well as a student at {' '}
+                    I am a member of SCBWI and volunteer as the Social Media Coordinator for the
+                    SF/South Bay branch. 
+                    I was a student at {' '}
 				    <a class="link" href="https://www.storytelleracademy.com/" target="_blank" rel="noreferrer">Storyteller Academy</a>, {' '}
 					<a class="link" href="https://www.svslearn.com/" target="_blank" rel="noreferrer">School of Visual Storytelling</a>, and {' '}
 					<a class="link" href="https://www.warriorartcamp.com/" target="_blank" rel="noreferrer">Warrior Art Camp</a>.
