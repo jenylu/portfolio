@@ -10,14 +10,14 @@ function Footer() {
 
                 {/* <!-- Right --> */}
                 <div>
-                    <a href="mailto: lu.jennifer@outlook.com" className="me-4 text-reset" target="_blank">
+                    <a href="mailto: jenlucreates@gmail.com" className="me-4 text-reset" target="_blank">
                         EMAIL
                     </a>
                     <a href="https://www.instagram.com/lunaludraws" className="me-4 text-reset" target="_blank">
                         INSTAGRAM
                     </a>
-                    <a href="https://www.twitter.com/lunaludraws" className="text-reset" target="_blank">
-                        TWITTER
+                    <a href="https://web-cdn.bsky.app/profile/lunaludraws.bsky.social" className="text-reset" target="_blank">
+                        BLUESKY
                     </a>
                 </div>
                 {/* <!-- Right --> */}
