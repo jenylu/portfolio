@@ -48,6 +48,11 @@ function NavigationHeader() {
             </a>
           </li>
           <li>
+            <a className="nav-link" href="https://faire.com/direct/lunaludraws" target="_blank">
+              Faire Direct
+            </a>
+          </li>
+          <li>
             <NavLink to="/about"
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
               onClick={handleClick}>
