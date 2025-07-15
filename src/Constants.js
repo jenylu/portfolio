@@ -27,17 +27,15 @@ export const Posts = {
             '../images/illustrations/Dragonboat_Color_Roughs_4.jpg'
         ],
     },
-    'goldilocks': {
-        title: 'Goldilocks and her Three Bears',
-        description: `I wanted to try doing some cover art so I thought about some
-         popular fairytales and went with Goldilocks and the Three Bears. I thought about
-         the parts of the plot that I wanted to show from the cover like how Goldilocks
-         is clearly taking over the bears' home and how it seems to be Baby Bear that is 
-         suffering the most... And this is what I came up with. Would you read this book?`,
+    'downtown': {
+        title: 'Downtown',
+        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
+       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
+       inspired by my walks around the city. I always get a lot of ideas when I visit New York
+       of course too. Visit the Comics tab for more!`,
         more_images: [
-            '../images/illustrations/Goldilocks.jpg',
-            '../images/illustrations/Goldilocks_Thumbnails.jpg',
-            '../images/illustrations/Goldilocks_Value.jpg',
+            '../images/illustrations/Downtown.jpg',
+            '../images/comics/Opposable_Thumbs.jpg',
         ],
     },
     'lily-scared': {
@@ -63,15 +61,17 @@ export const Posts = {
             '../images/illustrations/frog_sketch.JPG',
         ],
     },
-    'downtown': {
-        title: 'Downtown',
-        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
-       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
-       inspired by my walks around the city. I always get a lot of ideas when I visit New York
-       of course too. Visit the Comics tab for more!`,
+    'goldilocks': {
+        title: 'Goldilocks and her Three Bears',
+        description: `I wanted to try doing some cover art so I thought about some
+         popular fairytales and went with Goldilocks and the Three Bears. I thought about
+         the parts of the plot that I wanted to show from the cover like how Goldilocks
+         is clearly taking over the bears' home and how it seems to be Baby Bear that is 
+         suffering the most... And this is what I came up with. Would you read this book?`,
         more_images: [
-            '../images/illustrations/Downtown.jpg',
-            '../images/comics/Opposable_Thumbs.jpg',
+            '../images/illustrations/Goldilocks.jpg',
+            '../images/illustrations/Goldilocks_Thumbnails.jpg',
+            '../images/illustrations/Goldilocks_Value.jpg',
         ],
     },
     'valentine-1': {
@@ -216,9 +216,9 @@ export const Photos =  [
         width: 2400, height: 1500
     },
     {
-        slug: 'goldilocks',
-        src: './images/illustrations/Goldilocks.jpg',
-        width: 1800, height: 2400
+        slug: 'downtown',
+        src: './images/illustrations/Downtown.jpg',
+        width: 2400, height: 2400
     },
     {
         slug: 'lily-scared',
@@ -231,9 +231,9 @@ export const Photos =  [
         width: 2400, height: 1500
     },
     {
-        slug: 'downtown',
-        src: './images/illustrations/Downtown.jpg',
-        width: 2400, height: 2400
+        slug: 'goldilocks',
+        src: './images/illustrations/Goldilocks.jpg',
+        width: 1800, height: 2400
     },
     {
         slug: 'valentine-1',
