@@ -61,19 +61,6 @@ export const Posts = {
             '../images/illustrations/frog_sketch.JPG',
         ],
     },
-    'goldilocks': {
-        title: 'Goldilocks and her Three Bears',
-        description: `I wanted to try doing some cover art so I thought about some
-         popular fairytales and went with Goldilocks and the Three Bears. I thought about
-         the parts of the plot that I wanted to show from the cover like how Goldilocks
-         is clearly taking over the bears' home and how it seems to be Baby Bear that is 
-         suffering the most... And this is what I came up with. Would you read this book?`,
-        more_images: [
-            '../images/illustrations/Goldilocks.jpg',
-            '../images/illustrations/Goldilocks_Thumbnails.jpg',
-            '../images/illustrations/Goldilocks_Value.jpg',
-        ],
-    },
     'valentine-1': {
         title: 'Valentine',
         description: `A cute story I made for Valentine's Day of a little girl
@@ -140,6 +127,36 @@ export const Posts = {
             '../images/illustrations/Cake.jpg',
             '../images/illustrations/Cake_photo.jpg',
             '../images/illustrations/Kids_playing.jpg',
+        ],
+    },
+    'goldilocks': {
+        title: 'Goldilocks and her Three Bears',
+        description: `I wanted to try doing some cover art so I thought about some
+         popular fairytales and went with Goldilocks and the Three Bears. I thought about
+         the parts of the plot that I wanted to show from the cover like how Goldilocks
+         is clearly taking over the bears' home and how it seems to be Baby Bear that is 
+         suffering the most... And this is what I came up with. Would you read this book?`,
+        more_images: [
+            '../images/illustrations/Goldilocks.jpg',
+            '../images/illustrations/Goldilocks_Thumbnails.jpg',
+            '../images/illustrations/Goldilocks_Value.jpg',
+        ],
+    },
+    'hidden-tiles': {
+        title: 'Hidden Tiles at 16th Avenue',
+        description: `I drew this as part of a banner art contest for SCBWI SF North 
+        and East Bay's Oktoberfest. The theme was "Create an illustration that captures 
+        the spark of renewal—through nature, solitude, imagination, or simply making 
+        art for your Joy. Let the energy of San Francisco, the North and East Bay, and 
+        your inner world shine through!" I was inspired by the 16th Avenue Tiles Steps
+        in San Francisco and the beautiful mosaic art. I really enjoy city walks and sketching
+        along the way. It's a big source of inspiration for myself so I decided to choose
+        these steps as part of the art. I went back and took reference photos of myself and
+        did some rough sketches while I was there.`,
+        more_images: [
+            '../images/illustrations/Hidden_Tiles.jpg',
+            '../images/illustrations/Hidden_Tiles_Sketch.jpg',
+            '../images/illustrations/Hidden_Tiles_Reference.jpg',
         ],
     },
     'guzheng': {
@@ -231,11 +248,6 @@ export const Photos =  [
         width: 2400, height: 1500
     },
     {
-        slug: 'goldilocks',
-        src: './images/illustrations/Goldilocks.jpg',
-        width: 1800, height: 2400
-    },
-    {
         slug: 'valentine-1',
         src: './images/illustrations/valentine_1.jpg',
         width: 3000, height: 3000
@@ -249,6 +261,16 @@ export const Photos =  [
         slug: 'valentine-3',
         src: './images/illustrations/valentine_3.jpg',
         width: 3000, height: 3000
+    },
+    {
+        slug: 'goldilocks',
+        src: './images/illustrations/Goldilocks.jpg',
+        width: 1800, height: 2400
+    },
+    {
+        slug: 'hidden-tiles',
+        src: './images/illustrations/Hidden_Tiles.jpg',
+        width: 3200, height: 1600
     },
     {
         slug: 'rollin',
