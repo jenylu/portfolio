@@ -21,11 +21,10 @@ function About() {
                     collage as well as mixed-media in my travel sketchbook.
                     I am a member of SCBWI and volunteer as the Social Media Coordinator for the
                     SF/South Bay branch. 
-                    I was a student at {' '}
+                    I have been a student at {' '}
 				    <a class="link" href="https://www.storytelleracademy.com/" target="_blank" rel="noreferrer">Storyteller Academy</a>, {' '}
 					<a class="link" href="https://www.svslearn.com/" target="_blank" rel="noreferrer">School of Visual Storytelling</a>, and {' '}
 					<a class="link" href="https://www.warriorartcamp.com/" target="_blank" rel="noreferrer">Warrior Art Camp</a>.
-                    In 2023, I won the SCBWI July #DrawThis challenge. 
 					When I'm not drawing, you can find me coding or rollerskating. 
                 </p>
                 <br />
