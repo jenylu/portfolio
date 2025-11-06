@@ -1,7 +1,7 @@
 export const Posts = {
     'fear': {
         title: 'Fear',
-        description: `This is a redraw of a piece I did a year prior based on the prompt Fear,
+        description: `This is a redraw of a piece I did in 2022 based on the prompt Fear,
          from Beatrice Blue's Childhood Week challenge. It's based on my own childhood memory when I
          had to learn how to dive off the board for the first time.`,
         more_images: [
@@ -9,22 +9,18 @@ export const Posts = {
             '../images/illustrations/Fear_Process.jpg',
         ],
     },
-    'dragonboat-festival': {
-        title: 'Dragonboat Festival',
-        description: `I made this piece as part of a 4 day Warrior Art course I took
-         called Painting Festive Scenes with Gloria Félix. We each picked two festivals we wanted
-         to illustrate that took place during the day and night. I picked the Chinese holiday
-         Dragonboat Festival for my day scene. This is a holiday that consists of teams racing
-         each other in dragonboats including a drummer at the front to keep the pace and guide. 
-         We went through the process of research to thumbnails and composition to color roughs to shadow to 
-         final line and color.`,
+    'courage': {
+        title: 'Courage',
+        description: `This is the second panel, accompanying the first piece I did called Fear.`,
         more_images: [
-            '../images/illustrations/Dragonboat_Festival.jpg',
-            '../images/illustrations/Dragonboat_Research.jpg',
-            '../images/illustrations/Dragonboat_Thumbnails.jpg',
-            '../images/illustrations/Dragonboat_Color_Roughs_2.jpg',
-            '../images/illustrations/Dragonboat_Color_Roughs_3.jpg',
-            '../images/illustrations/Dragonboat_Color_Roughs_4.jpg'
+            '../images/illustrations/Courage.jpg',
+        ],
+    },
+    'joy': {
+        title: 'Joy',
+        description: `This is the third panel, accompanying the first piece I did called Fear.`,
+        more_images: [
+            '../images/illustrations/Joy.jpg',
         ],
     },
     'gardendog': {
@@ -43,6 +39,24 @@ export const Posts = {
             '../images/illustrations/Garden_Dog_Process.jpg',
             '../images/illustrations/Garden_Dog_Reference.jpg',
             '../images/illustrations/Garden_Dog_Process2.jpg',
+        ],
+    },
+    'dragonboat-festival': {
+        title: 'Dragonboat Festival',
+        description: `I made this piece as part of a 4 day Warrior Art course I took
+         called Painting Festive Scenes with Gloria Félix. We each picked two festivals we wanted
+         to illustrate that took place during the day and night. I picked the Chinese holiday
+         Dragonboat Festival for my day scene. This is a holiday that consists of teams racing
+         each other in dragonboats including a drummer at the front to keep the pace and guide. 
+         We went through the process of research to thumbnails and composition to color roughs to shadow to 
+         final line and color.`,
+        more_images: [
+            '../images/illustrations/Dragonboat_Festival.jpg',
+            '../images/illustrations/Dragonboat_Research.jpg',
+            '../images/illustrations/Dragonboat_Thumbnails.jpg',
+            '../images/illustrations/Dragonboat_Color_Roughs_2.jpg',
+            '../images/illustrations/Dragonboat_Color_Roughs_3.jpg',
+            '../images/illustrations/Dragonboat_Color_Roughs_4.jpg'
         ],
     },
     'chalkart': {
@@ -182,37 +196,6 @@ export const Posts = {
             '../images/illustrations/Kids_playing.jpg',
         ],
     },
-    'guzheng': {
-        title: 'Guzheng',
-        description: `My mom used to play the guzheng for me when I was little. It's a Chinese
-         string instrument similar to a harp in some ways and I thought my mom looked so elegant 
-         playing and that the music was so pretty. I never learned how to play it but I made 
-         this piece inspired by that memory.`,
-        more_images: [
-            '../images/illustrations/Guzheng.jpg',
-            '../images/illustrations/Guzheng_Thumbnails.jpg',
-            '../images/illustrations/Guzheng_Process.jpg',
-        ],
-    },
-    // 'mid-autumn-festival': {
-    //     title: 'Mid-Autumn Festival',
-    //     description: `I made this piece as part of a 4 day Warrior Art course I took
-    //     called Painting Festive Scenes with Gloria Félix. We each picked two festivals we wanted
-    //     to illustrate that took place during the day and night. I picked Mid-Autumn Festival
-    //     or Moon Festival as my night scene. This is a Chinese holiday celebrated during mid September/early 
-    //     October which is when it is believed that the moon is at its fullest and brightest, 
-    //     coinciding with harvest time in autumn. It is celebrated by eating mooncake with your family 
-    //     and carrying lanterns. There are tales of the rabbit on the moon and the Moon Goddess, hence
-    //     the illustrations I drew on the lanterns in this piece.{\n}
-    //     Fun fact, I was the youngest of my cousins growing up which is why I added the small girl at the end, 
-    //     crying to try and keep up with the rest. Ah the plight of the youngest.`,
-    //     more_images: [
-    //         '../images/illustrations/Mid_Autumn_Festival.jpg',
-    //         '../images/illustrations/Mid_Autumn_Festival_Research.jpg',
-    //         '../images/illustrations/Mid_Autumn_Festival_Thumbnails.jpg',
-    //         '../images/illustrations/Mid_Autumn_Festival_Color.jpg',
-    //     ],
-    // },
     // 'tropical-summer': {
     //     title: 'Tropical Summer',
     //     description: `Part of the month long IG challenge #sweetsummerdays for the prompt
@@ -223,16 +206,16 @@ export const Posts = {
     //         '../images/illustrations/Tropical_Summer_Process.jpg',
     //     ],
     // },
-    // 'summer-markets': {
-    //     title: 'Summer Markets',
-    //     description: `I won the SCBWI Draw This in July 2023 with the prompt "Snacks" with 
-    //    this piece. I also made it for the month long IG challenge #sweetsummerdays where the prompt was
-    //    "Summer Markets".`,
-    //     more_images: [
-    //         '../images/illustrations/Summer_Markets.jpg',
-    //         '../images/illustrations/Summer_Market_Process.jpg',
-    //     ],
-    // },
+    'summer-markets': {
+        title: 'Summer Markets',
+        description: `I won the SCBWI Draw This in July 2023 with the prompt "Snacks" with 
+       this piece. I also made it for the month long IG challenge #sweetsummerdays where the prompt was
+       "Summer Markets".`,
+        more_images: [
+            '../images/illustrations/Summer_Markets.jpg',
+            '../images/illustrations/Summer_Market_Process.jpg',
+        ],
+    },
     'downtown': {
         title: 'Downtown',
         description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
@@ -262,14 +245,24 @@ export const Photos =  [
         width: 576, height: 720 
     },
     {
-        slug: 'dragonboat-festival',
-        src: './images/illustrations/Dragonboat_Festival.jpg',
-        width: 2400, height: 1500
+        slug: 'courage',
+        src: './images/illustrations/Courage.jpg',
+        width: 576, height: 720 
+    },
+     {
+        slug: 'joy',
+        src: './images/illustrations/Joy.jpg',
+        width: 576, height: 720 
     },
     {
         slug: 'gardendog',
         src: './images/illustrations/Garden_Dog.jpg',
         width: 576, height: 720
+    },
+    {
+        slug: 'dragonboat-festival',
+        src: './images/illustrations/Dragonboat_Festival.jpg',
+        width: 2400, height: 1500
     },
     {
         slug: 'chalkart',
@@ -326,26 +319,16 @@ export const Photos =  [
         src: './images/illustrations/Cake.jpg',
         width: 3000, height: 3000
     },
-    {
-        slug: 'guzheng',
-        src: './images/illustrations/Guzheng.jpg',
-        width: 2400, height: 1500
-    },
-    // {
-    //     slug: 'mid-autumn-festival',
-    //     src: '../images/illustrations/Mid_Autumn_Festival.jpg',
-    //     width: 2400, height: 1500
-    // },
     // {
     //     slug: 'tropical-summer',
     //     src: './images/illustrations/Tropical_Summer.jpg',
     //     width: 2400, height: 1500
     // },
-    // {
-    //     slug: 'summer-markets',
-    //     src: './images/illustrations/Summer_Markets.jpg',
-    //     width: 2400, height: 2400
-    // },
+    {
+        slug: 'summer-markets',
+        src: './images/illustrations/Summer_Markets.jpg',
+        width: 2400, height: 2400
+    },
         {
         slug: 'downtown',
         src: './images/illustrations/Downtown.jpg',
