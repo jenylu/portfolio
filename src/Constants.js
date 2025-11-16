@@ -36,6 +36,8 @@ export const Posts = {
             draw these two things and this was the result.`,
         more_images: [
             '../images/illustrations/Garden_Dog.jpg',
+            '../images/illustrations/Garden_Dog_Sketches.jpg',
+            '../images/illustrations/Garden_Dog_Hug.jpg',
             '../images/illustrations/Garden_Dog_Process.jpg',
             '../images/illustrations/Garden_Dog_Reference.jpg',
             '../images/illustrations/Garden_Dog_Process2.jpg',
