@@ -23,60 +23,6 @@ export const Posts = {
             '../images/illustrations/Joy.jpg',
         ],
     },
-    'gardendog': {
-        title: 'Lost Dog Found',
-        description: `I created this as part of a 4 day Warrior Art course I took with
-            the artists Tanta and Ferrari. They taught us to draw from experiences
-            and emotions that happen in our real life and to take lots of photos of 
-            environments that inspire us as reference. Sometimes a photo doesn't capture
-            all of the feelings we have in that moment and we can use art to do that. I
-            was particularly inspired by this magical front yard I had sketched while doing a 
-            stairway walk around SF. I had also recently visited SLO and our Airbnb had
-            the cutest sleepy old dog in another very magical garden. I knew I wanted to 
-            draw these two things and this was the result.`,
-        more_images: [
-            '../images/illustrations/Garden_Dog.jpg',
-            '../images/illustrations/Garden_Dog_Sketches.jpg',
-            '../images/illustrations/Garden_Dog_Hug.jpg',
-            '../images/illustrations/Garden_Dog_Process.jpg',
-            '../images/illustrations/Garden_Dog_Reference.jpg',
-            '../images/illustrations/Garden_Dog_Process2.jpg',
-        ],
-    },
-    'dragonboat-festival': {
-        title: 'Dragonboat Festival',
-        description: `I made this piece as part of a 4 day Warrior Art course I took
-         called Painting Festive Scenes with Gloria Félix. We each picked two festivals we wanted
-         to illustrate that took place during the day and night. I picked the Chinese holiday
-         Dragonboat Festival for my day scene. This is a holiday that consists of teams racing
-         each other in dragonboats including a drummer at the front to keep the pace and guide. 
-         We went through the process of research to thumbnails and composition to color roughs to shadow to 
-         final line and color.`,
-        more_images: [
-            '../images/illustrations/Dragonboat_Festival.jpg',
-            '../images/illustrations/Dragonboat_Research.jpg',
-            '../images/illustrations/Dragonboat_Thumbnails.jpg',
-            '../images/illustrations/Dragonboat_Color_Roughs_2.jpg',
-            '../images/illustrations/Dragonboat_Color_Roughs_3.jpg',
-            '../images/illustrations/Dragonboat_Color_Roughs_4.jpg'
-        ],
-    },
-    'chalkart': {
-        title: 'Chalk Art Havoc',
-        description: `I created this as part of a 4 day Warrior Art course I took with
-            the artists Tanta and Ferrari. They taught us to draw from experiences
-            and emotions that happen in our real life and to take lots of photos of 
-            environments that inspire us as reference. Sometimes a photo doesn't capture
-            all of the feelings we have in that moment and we can use art to do that. I
-            was inspired by this tennis court in Russian Hill SF that has beautiful views
-            of the city. That day the court was also covered with cute chalk drawings. I 
-            decided to use this place as a backdrop for a story.`,
-        more_images: [
-            '../images/illustrations/Chalk_Art.jpg',
-            '../images/illustrations/Chalk_Art_Reference.jpg',
-            '../images/illustrations/Chalk_Art_Process.jpg',
-        ],
-    },
     'lily-scared': {
         title: 'Lily Scared',
         description: `Part of a manuscript that I am working on about a shy introverted
@@ -98,6 +44,58 @@ export const Posts = {
             '../images/illustrations/Lily_Dance.jpg',
             '../images/illustrations/frog.JPG',
             '../images/illustrations/frog_sketch.JPG',
+        ],
+    },
+    'jane-austen': {
+        title: 'Jane Austen Festival',
+        description: `I attended the 2025 Jane Austen Festival in Bath, England during
+        their 250th anniversary with a couple high school friends. The trip was the 
+        definition of girlhood and living out all our high school dreams together. I had
+        such a magical time and wanted to capture that memory. The Celestial Ball tied the
+        whole trip together and it was especially funny that it was practically 90% women.
+        Turns out a lot of regency dance includes skipping in a circle and that just felt
+        even more like living out my childhood dreams. I hope those feelings come through.`,
+        more_images: [
+            '../images/illustrations/Jane_Austen.jpg',
+            '../images/illustrations/Jane_Austen_Process.jpg',
+        ],
+    },
+    'dragonboat-festival': {
+        title: 'Dragonboat Festival',
+        description: `I made this piece as part of a 4 day Warrior Art course I took
+         called Painting Festive Scenes with Gloria Félix. We each picked two festivals we wanted
+         to illustrate that took place during the day and night. I picked the Chinese holiday
+         Dragonboat Festival for my day scene. This is a holiday that consists of teams racing
+         each other in dragonboats including a drummer at the front to keep the pace and guide. 
+         We went through the process of research to thumbnails and composition to color roughs to shadow to 
+         final line and color.`,
+        more_images: [
+            '../images/illustrations/Dragonboat_Festival.jpg',
+            '../images/illustrations/Dragonboat_Research.jpg',
+            '../images/illustrations/Dragonboat_Thumbnails.jpg',
+            '../images/illustrations/Dragonboat_Color_Roughs_2.jpg',
+            '../images/illustrations/Dragonboat_Color_Roughs_3.jpg',
+            '../images/illustrations/Dragonboat_Color_Roughs_4.jpg'
+        ],
+    },
+    'gardendog': {
+        title: 'Lost Dog Found',
+        description: `I created this as part of a 4 day Warrior Art course I took with
+            the artists Tanta and Ferrari. They taught us to draw from experiences
+            and emotions that happen in our real life and to take lots of photos of 
+            environments that inspire us as reference. Sometimes a photo doesn't capture
+            all of the feelings we have in that moment and we can use art to do that. I
+            was particularly inspired by this magical front yard I had sketched while doing a 
+            stairway walk around SF. I had also recently visited SLO and our Airbnb had
+            the cutest sleepy old dog in another very magical garden. I knew I wanted to 
+            draw these two things and this was the result.`,
+        more_images: [
+            '../images/illustrations/Garden_Dog.jpg',
+            '../images/illustrations/Garden_Dog_Sketches.jpg',
+            '../images/illustrations/Garden_Dog_Hug.jpg',
+            '../images/illustrations/Garden_Dog_Process.jpg',
+            '../images/illustrations/Garden_Dog_Reference.jpg',
+            '../images/illustrations/Garden_Dog_Process2.jpg',
         ],
     },
     'valentine-1': {
@@ -130,6 +128,17 @@ export const Posts = {
         more_images: [
             '../images/illustrations/valentine_3.jpg',
             '../images/illustrations/Valentine_Process.jpg',
+        ],
+    },
+    'downtown': {
+        title: 'Downtown',
+        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
+       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
+       inspired by my walks around the city. I always get a lot of ideas when I visit New York
+       of course too. Visit the Comics tab for more!`,
+        more_images: [
+            '../images/illustrations/Downtown.jpg',
+            '../images/comics/Opposable_Thumbs.jpg',
         ],
     },
     'goldilocks': {
@@ -198,37 +207,45 @@ export const Posts = {
             '../images/illustrations/Kids_playing.jpg',
         ],
     },
-    // 'tropical-summer': {
-    //     title: 'Tropical Summer',
-    //     description: `Part of the month long IG challenge #sweetsummerdays for the prompt
-    //    "Tropical Summer". This was the first in the challenge series. I decided to continue
-    //    using this same friend group for the rest of them.`,
+    'chalkart': {
+        title: 'Chalk Art Havoc',
+        description: `I created this as part of a 4 day Warrior Art course I took with
+            the artists Tanta and Ferrari. They taught us to draw from experiences
+            and emotions that happen in our real life and to take lots of photos of 
+            environments that inspire us as reference. Sometimes a photo doesn't capture
+            all of the feelings we have in that moment and we can use art to do that. I
+            was inspired by this tennis court in Russian Hill SF that has beautiful views
+            of the city. That day the court was also covered with cute chalk drawings. I 
+            decided to use this place as a backdrop for a story.`,
+        more_images: [
+            '../images/illustrations/Chalk_Art.jpg',
+            '../images/illustrations/Chalk_Art_Reference.jpg',
+            '../images/illustrations/Chalk_Art_Process.jpg',
+        ],
+    },
+    'hidenseek': {
+        title: 'Hide N Seek',
+        description: `This piece was inspired by a trip to the Yorkshire Dales during
+        an Orange Beak Picture Book retreat. There were a lot of very old graveyards
+        and churches around the area. I liked how wonky and old the gravestones looked -
+        you could really tell that they had been there for a long, long time. Compared
+        to the graveyards I'd seen in California, these definitely had a longer history
+        and I felt compelled to draw them so I did. I imagined a little story to go with it.`,
+        more_images: [
+            '../images/illustrations/Hide_N_Seek.jpg',
+            '../images/illustrations/hidenseek_reference.jpg',
+        ],
+    },
+    // 'summer-markets': {
+    //     title: 'Summer Markets',
+    //     description: `I won the SCBWI Draw This in July 2023 with the prompt "Snacks" with 
+    //    this piece. I also made it for the month long IG challenge #sweetsummerdays where the prompt was
+    //    "Summer Markets".`,
     //     more_images: [
-    //         '../images/illustrations/Tropical_Summer.jpg',
-    //         '../images/illustrations/Tropical_Summer_Process.jpg',
+    //         '../images/illustrations/Summer_Markets.jpg',
+    //         '../images/illustrations/Summer_Market_Process.jpg',
     //     ],
     // },
-    'summer-markets': {
-        title: 'Summer Markets',
-        description: `I won the SCBWI Draw This in July 2023 with the prompt "Snacks" with 
-       this piece. I also made it for the month long IG challenge #sweetsummerdays where the prompt was
-       "Summer Markets".`,
-        more_images: [
-            '../images/illustrations/Summer_Markets.jpg',
-            '../images/illustrations/Summer_Market_Process.jpg',
-        ],
-    },
-    'downtown': {
-        title: 'Downtown',
-        description: `I made this as part of the IG challenge #animaladventuresweek for the prompt
-       "Downtown". This picture also sparked the start of my pigeon comics, many of which are
-       inspired by my walks around the city. I always get a lot of ideas when I visit New York
-       of course too. Visit the Comics tab for more!`,
-        more_images: [
-            '../images/illustrations/Downtown.jpg',
-            '../images/comics/Opposable_Thumbs.jpg',
-        ],
-    },
     'bedtime': {
         title: 'Bedtime',
         description: `Part of the week-long IG challenge #animaladventuresweek for the prompt "Bedtime".
@@ -257,21 +274,6 @@ export const Photos =  [
         width: 576, height: 720 
     },
     {
-        slug: 'gardendog',
-        src: './images/illustrations/Garden_Dog.jpg',
-        width: 576, height: 720
-    },
-    {
-        slug: 'dragonboat-festival',
-        src: './images/illustrations/Dragonboat_Festival.jpg',
-        width: 2400, height: 1500
-    },
-    {
-        slug: 'chalkart',
-        src: './images/illustrations/Chalk_Art.jpg',
-        width: 576, height: 720
-    },
-    {
         slug: 'lily-scared',
         src: './images/illustrations/Lily_Scared.jpg',
         width: 2400, height: 1500
@@ -280,6 +282,21 @@ export const Photos =  [
         slug: 'lily-scatting',
         src: './images/illustrations/Lily_Scatting.jpg',
         width: 2400, height: 1500
+    },
+    {
+        slug: 'jane-austen',
+        src: './images/illustrations/Jane_Austen.jpg',
+        width: 720, height: 576
+    },
+    {
+        slug: 'dragonboat-festival',
+        src: './images/illustrations/Dragonboat_Festival.jpg',
+        width: 2400, height: 1500
+    },
+    {
+        slug: 'gardendog',
+        src: './images/illustrations/Garden_Dog.jpg',
+        width: 576, height: 720
     },
     {
         slug: 'valentine-1',
@@ -295,6 +312,11 @@ export const Photos =  [
         slug: 'valentine-3',
         src: './images/illustrations/valentine_3.jpg',
         width: 3000, height: 3000
+    },
+    {
+        slug: 'downtown',
+        src: './images/illustrations/Downtown.jpg',
+        width: 2400, height: 2400
     },
     {
         slug: 'goldilocks',
@@ -321,21 +343,21 @@ export const Photos =  [
         src: './images/illustrations/Cake.jpg',
         width: 3000, height: 3000
     },
-    // {
-    //     slug: 'tropical-summer',
-    //     src: './images/illustrations/Tropical_Summer.jpg',
-    //     width: 2400, height: 1500
-    // },
     {
-        slug: 'summer-markets',
-        src: './images/illustrations/Summer_Markets.jpg',
-        width: 2400, height: 2400
+        slug: 'chalkart',
+        src: './images/illustrations/Chalk_Art.jpg',
+        width: 576, height: 720
     },
-        {
-        slug: 'downtown',
-        src: './images/illustrations/Downtown.jpg',
-        width: 2400, height: 2400
+    {
+        slug: 'hidenseek',
+        src: './images/illustrations/Hide_N_Seek.jpg',
+        width: 576, height: 720
     },
+    // {
+    //     slug: 'summer-markets',
+    //     src: './images/illustrations/Summer_Markets.jpg',
+    //     width: 2400, height: 2400
+    // },
     {
         slug: 'bedtime',
         src: './images/illustrations/Bedtime.jpg',
