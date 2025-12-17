@@ -57,7 +57,7 @@ export const Posts = {
         even more like living out my childhood dreams. I hope those feelings come through.`,
         more_images: [
             '../images/illustrations/Jane_Austen.jpg',
-            '../images/illustrations/Jane_Austen_Process.jpg',
+            '../images/illustrations/Jane_Austen_Process.JPG',
         ],
     },
     'dragonboat-festival': {
