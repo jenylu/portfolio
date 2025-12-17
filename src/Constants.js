@@ -95,7 +95,7 @@ export const Posts = {
             '../images/illustrations/Garden_Dog_Hug.jpg',
             '../images/illustrations/Garden_Dog_Process.jpg',
             '../images/illustrations/Garden_Dog_Reference.jpg',
-            '../images/illustrations/Garden_Dog_Process2.jpg',
+            '../images/illustrations/Garden_Dog_Process2.JPG',
         ],
     },
     'valentine-1': {
@@ -220,7 +220,7 @@ export const Posts = {
         more_images: [
             '../images/illustrations/Chalk_Art.jpg',
             '../images/illustrations/Chalk_Art_Reference.jpg',
-            '../images/illustrations/Chalk_Art_Process.jpg',
+            '../images/illustrations/Chalk_Art_Process.JPG',
         ],
     },
     'hidenseek': {
