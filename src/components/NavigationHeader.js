@@ -44,12 +44,12 @@ function NavigationHeader() {
           </li>
           <li>
             <a className="nav-link" href="https://www.etsy.com/shop/lunaludraws" target="_blank">
-              Store
+              Shop
             </a>
           </li>
           <li>
             <a className="nav-link" href="https://faire.com/direct/lunaludraws" target="_blank">
-              Faire Direct
+              Wholesale
             </a>
           </li>
           <li>
