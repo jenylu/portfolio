@@ -33,7 +33,7 @@ function About() {
                     Mad Woman Literary. For publishing related enquiries, including picture books, interiors, and book covers, please contact Chelsea{' '}
                     at <a className="link" href="mailto: chelsea@madwomanliterary.com">chelsea@madwomanliterary.com</a>
                 </p>
-                <p> For all other inquiries, contact me at <a className="link" href="mailto: jenlucreates@gmail.com">jenlucreates@gmail.com</a> </p>
+                <p> For anything else, contact me at <a className="link" href="mailto: jenlucreates@gmail.com">jenlucreates@gmail.com</a> </p>
                 <p> To see more of my art journey, check out my Instagram account {' '}
                     <a className="link" href="https://www.instagram.com/lunaludraws" target="_blank" rel="noreferrer">
                         @lunaludraws 
