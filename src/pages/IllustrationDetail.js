@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { Posts } from '../Constants';
+import { Posts, illustrationSlugs } from '../Constants';
 import GoToTop from '../components/GoToTop';
 import '../styles/IllustrationDetails.css';
 
@@ -27,21 +27,12 @@ function IllustrationDetail() {
         );
     }
 
-    let prevSlug = '';
-    let nextSlug = '';
-    let keyFound = false;
-    for (const key in Posts) {
-        if (keyFound === true) {
-            nextSlug = key;
-            break;
-        }
-
-        if (key === slug) {
-            keyFound = true;
-        } else {
-            prevSlug = key;
-        }
-    }
+    const index = illustrationSlugs.indexOf(slug);
+    const prevSlug = index > 0 ? illustrationSlugs[index - 1] : '';
+    const nextSlug =
+        index >= 0 && index < illustrationSlugs.length - 1
+            ? illustrationSlugs[index + 1]
+            : '';
 
     const newDesc = description.split('{\n}').map(str => <p>{str}</p>);
 

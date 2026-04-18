@@ -21,6 +21,10 @@
     text-align: justify;
 }
 
+.description .title {
+    text-align: left;
+}
+
 .linkContainer {
     display: flex;
     justify-content: space-between;

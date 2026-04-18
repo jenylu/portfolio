@@ -45,6 +45,7 @@ function Sketchbook() {
       <SlideshowLightbox className="" lightboxIdentifier="lightbox1" theme="lightbox">
         {images.map((image) => (
             <img
+              alt=""
               className="lightboxGrid"
               src={image.src}
               data-lightboxjs="lightbox1"

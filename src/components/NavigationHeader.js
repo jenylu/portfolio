@@ -43,12 +43,12 @@ function NavigationHeader() {
             </NavLink>
           </li>
           <li>
-            <a className="nav-link" href="https://www.etsy.com/shop/lunaludraws" target="_blank">
+            <a className="nav-link" href="https://www.etsy.com/shop/lunaludraws" target="_blank" rel="noreferrer">
               Shop
             </a>
           </li>
           <li>
-            <a className="nav-link" href="https://faire.com/direct/lunaludraws" target="_blank">
+            <a className="nav-link" href="https://faire.com/direct/lunaludraws" target="_blank" rel="noreferrer">
               Wholesale
             </a>
           </li>
@@ -60,7 +60,7 @@ function NavigationHeader() {
             </NavLink>
           </li>
           <li>
-            <a className="nav-link" href="https://www.instagram.com/lunaludraws" target="_blank">
+            <a className="nav-link" href="https://www.instagram.com/lunaludraws" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faInstagram} className="mr-1" />
             </a>
           </li>

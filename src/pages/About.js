@@ -29,7 +29,7 @@ function About() {
                 </p>
                 <br />
                 <p>
-                    I am repped by <a className="link" href="https://www.madwomanliterary.com/agents/chelsea-hensley" target="_blank">Chelsea Hensley</a> at{' '}
+                    I am repped by <a className="link" href="https://www.madwomanliterary.com/agents/chelsea-hensley" target="_blank" rel="noreferrer">Chelsea Hensley</a> at{' '}
                     Mad Woman Literary. For publishing related enquiries, including picture books, interiors, and book covers, please contact Chelsea{' '}
                     at <a className="link" href="mailto: chelsea@madwomanliterary.com">chelsea@madwomanliterary.com</a>
                 </p>
