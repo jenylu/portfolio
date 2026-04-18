@@ -118,6 +118,23 @@ const illustrations = [
         grid: { width: 1800, height: 2400 },
     },
     {
+        slug: 'janeausten',
+        title: 'Jane Austen Festival',
+        description: `I attended the 2025 Jane Austen Festival in Bath, England during 
+        their 250th anniversary with a couple high school friends. The trip was the 
+        definition of girlhood and living out all our high school dreams together. 
+        I had such a magical time and wanted to capture that memory. The Celestial 
+        Ball tied the whole trip together and it was especially funny that it was 
+        practically 90% women. Turns out a lot of regency dance includes skipping 
+        in a circle and that just felt even more like living out my childhood dreams. 
+        I hope those feelings come through.`,
+        more_images: [
+            '../images/illustrations/Jane_Austen.jpg',
+            '../images/illustrations/Jane_Austen_Reference.jpg',
+        ],
+        grid: { width: 720, height: 576 },
+    },
+    {
         slug: 'dragonboat-festival',
         title: 'Dragonboat Festival',
         description: `I made this piece as part of a 4 day Warrior Art course I took
