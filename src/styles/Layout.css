@@ -4,7 +4,13 @@
 red text colour             rt               #F20500
 mobile nav bg color         navbg            rgba(128,128,128,0.2)             
 */
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Alegreya+Sans:wght@400;500;700&display=swap');
+
+:root {
+   --font-body: 'Alegreya Sans', sans-serif; 
+   --font-heading: 'Alegreya', serif; 
+   --font-nav: 'Alegreya', serif; 
+}
 
 @-webkit-viewport { width: device-width; }
 @-moz-viewport { width: device-width; }
@@ -17,33 +23,12 @@ mobile nav bg color         navbg            rgba(128,128,128,0.2)
   p {
     font-size: 95%;
   }
-  /* p,.btn,input,div,span,h4 {
-    font-size: 95%;
-  }
-  h1 {
-    font-size: 24px;  
-  }
-  h2 {
-    font-size: 22px;  
-  }
-  h3 {
-    font-size: 18px;  
-  }  */
 }
 
 @media screen and (max-width: 768px) {
   p {
     font-size: 90%;
   }
-  /* h1 {
-    font-size: 20px;  
-  }
-  h2 {
-    font-size: 18px;  
-  }
-  h3 {
-    font-size: 16px;  
-  } */
 }
 
 @media (min-width: 1200px) {
@@ -67,7 +52,9 @@ mobile nav bg color         navbg            rgba(128,128,128,0.2)
 }
 
 .content {
-  font: 1em 'Crimson Text', 'Lato', sans-serif;
+  font: 1em var(--font-body);
+  line-height: 1.65;
+  letter-spacing: 0.01em;
   margin: 1em 3em 1em 3em;
   text-align: center;
   transition: margin .3s ease-in-out;
@@ -76,12 +63,35 @@ mobile nav bg color         navbg            rgba(128,128,128,0.2)
   margin: .25em 0 .75em 0;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.75;
+}
+
+/* food illustration page */
+.foodIntro {
+  max-width: 760px;
+}
+
+.content > p.foodIntro {
+  margin: .25em auto .75em auto;
+}
+/* end food illustration page */
+
 .innerContent {
   margin: 0 140px 0 140px;
 }
 
 body {
-  font-family: 'Crimson Text', sans-serif;
+  font-family: var(--font-body);
+  color: #2f2f2f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
 }
 
 /* Header */
@@ -137,6 +147,7 @@ footer{
     display: block;
     margin: 12px 0px 12px 0px;
   }
+
 }
 
 @media (max-height:800px){

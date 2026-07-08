@@ -43,6 +43,13 @@ function NavigationHeader() {
             </NavLink>
           </li>
           <li>
+            <NavLink to="/foodart"
+              className={({ isActive }) => (isActive ? 'active' : 'inactive')}
+              onClick={handleClick}>
+              Food Art
+            </NavLink>
+          </li>
+          <li>
             <a className="nav-link" href="https://www.etsy.com/shop/lunaludraws" target="_blank" rel="noreferrer">
               Shop
             </a>

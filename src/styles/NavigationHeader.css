@@ -42,14 +42,16 @@
 .navigation-menu li {
     /* // removes default disc bullet for li tags and applies margin to left & right side */
     list-style-type: none;
-    margin: 0 2rem;
+    margin: 0 1.6rem;
 }
 
 .navigation-menu li a {
     display: block;
     width: 100%;
     color: #282828;
-    font: 1.3em 'Crimson Text', sans-serif;
+    font: 1.3em var(--font-nav);
+    letter-spacing: 0.02em;
+    font-weight: 400;
     transition: color .3s ease-in-out;
 }
 

@@ -4,6 +4,7 @@ import Illustration from "./pages/Illustration";
 import Sketchbook from "./pages/Sketchbook";
 import Comics from "./pages/Comics";
 import About from "./pages/About";
+import FoodArt from './pages/FoodArt';
 import IllustrationDetail from './pages/IllustrationDetail';
 import ImageGrid from './components/ImageGrid';
 import NavigationHeader from "./components/NavigationHeader";
@@ -20,6 +21,7 @@ function App() {
         </Route>
         <Route path="/sketchbook" element={<Sketchbook />} />
         <Route path="/comics" element={<Comics />} />
+        <Route path="/foodart" element={<FoodArt />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>
