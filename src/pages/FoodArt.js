@@ -78,7 +78,7 @@ function FoodArt() {
         created with digital paper cut collage or mixed media.
       </p>
       <ResponsiveMasonry
-        columnsCountBreakPoints={{ 300: 1, 500: 2, 700: 3, 900: 4 }}
+        columnsCountBreakPoints={{ 300: 1, 700: 2, 900: 3 }}
       >
         <Masonry gutter="15px">
           {images.map(({ src }, index) => (
