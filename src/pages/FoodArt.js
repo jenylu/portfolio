@@ -11,7 +11,6 @@ const images = [
   { src: './images/food/August_Recipe_2.jpg' },
   { src: './images/food/June_Spritzer.jpg' },
   { src: './images/food/Thai_Basil.jpg' },
-  { src: './images/food/Thai_Basil_1.jpg' },
   { src: './images/food/italy_food_zine.jpg' },
   { src: './images/food/italy_aperol.jpg' },
   { src: './images/food/Kimchi_Recipe.jpg' },
