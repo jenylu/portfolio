@@ -43,10 +43,10 @@ function NavigationHeader() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/foodart"
+            <NavLink to="/foodandplaces"
               className={({ isActive }) => (isActive ? 'active' : 'inactive')}
               onClick={handleClick}>
-              Food Art
+              Food & Places
             </NavLink>
           </li>
           <li>

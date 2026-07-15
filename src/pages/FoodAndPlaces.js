@@ -15,9 +15,13 @@ const images = [
   { src: './images/food/italy_aperol.jpg' },
   { src: './images/food/Kimchi_Recipe.jpg' },
   { src: './images/food/Lemony_Hummus_Recipe.jpg' },
+  { src: './images/places/Golden_Gate_Bridge.jpg' },
+  { src: './images/places/Coit_Tower.jpg' },
+  { src: './images/places/Dolores_Park.jpg' },
+  { src: './images/places/SF_Trolley.jpg' },
 ];
 
-function FoodArt() {
+function FoodAndPlaces() {
   const thumbRefs = useRef([]);
   const pswpRef = useRef(null);
 
@@ -29,7 +33,7 @@ function FoodArt() {
   }, []);
 
   useEffect(() => {
-    document.title = 'Jennifer Lu | Food Art';
+    document.title = 'Jennifer Lu | Food & Places';
   }, []);
 
   const openGallery = useCallback((index, e) => {
@@ -73,7 +77,7 @@ function FoodArt() {
     <div className="content innerContent">
       <p className="foodIntro">
 
-        A collection of food illustration, recipes, and drink pieces inspired by
+        A collection of food illustration, recipes, and places inspired by
         meals, travel, and the joy of gathering around the table. These were mostly 
         created with digital paper cut collage or mixed media.
       </p>
@@ -99,4 +103,4 @@ function FoodArt() {
   );
 }
 
-export default FoodArt;
+export default FoodAndPlaces;
