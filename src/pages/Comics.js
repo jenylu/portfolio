@@ -6,6 +6,11 @@ import PhotoSwipe from 'photoswipe';
 
 const images = [
   {
+    src: './images/comics/Long_Drive.jpg',
+    width: 1350,
+    height: 1725,
+  },
+  {
     src: './images/comics/Opposable_Thumbs.jpg',
     width: 1600,
     height: 1600,
@@ -27,11 +32,6 @@ const images = [
   },
   {
     src: './images/comics/Christmas_Pigeon_Card.jpg',
-    width: 1350,
-    height: 1725,
-  },
-  {
-    src: './images/comics/Birthday_Pigeon_Card.jpg',
     width: 1350,
     height: 1725,
   },
