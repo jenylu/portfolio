@@ -5,6 +5,7 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import PhotoSwipe from 'photoswipe';
 
 const images = [
+  { src: './images/food/Cinnamon_Roll_Recipe.jpg' },
   { src: './images/food/Apple_Syrup.jpg' },
   { src: './images/food/August_Recipe.jpg' },
   { src: './images/food/August_Instructions.png' },
